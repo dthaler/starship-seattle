@@ -1,0 +1,2147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DMX_DEVICES>
+	<profile name="default"></profile>
+	<profile name="LIFX white">
+		<inputDevice id="Lifx1" channelCount="3" firstChannel="1">
+			<outputDevice type="Enttec Open" param="1"></outputDevice>
+		</inputDevice>
+	</profile>
+	<profile name="ThalerPortableBridge-v3.12-ScreenFirst">
+		<inputDevice id="CO1" channelCount="1" firstChannel="1" maxIntensity="255">
+			<outputDevice type="Enttec Open" param="1"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Can1" channelCount="4" firstChannel="2">
+			<outputDevice type="Enttec Open" param="2"></outputDevice>
+		</inputDevice>
+		<inputDevice id="CO2" channelCount="3" firstChannel="6">
+			<outputDevice type="Enttec Open" param="6"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Can2" channelCount="1" firstChannel="9" maxIntensity="255">
+			<outputDevice type="Enttec Open" param="9"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L5" channelCount="1" firstChannel="10" maxIntensity="255">
+			<outputDevice type="Enttec Open" param="10"></outputDevice>
+		</inputDevice>
+		<inputDevice id="CO3" channelCount="3" firstChannel="11">
+			<outputDevice type="Enttec Open" param="11"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Can3" channelCount="1" firstChannel="14" maxIntensity="255">
+			<outputDevice type="Enttec Open" param="14"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L8" channelCount="1" firstChannel="15" maxIntensity="255">
+			<outputDevice type="Enttec Open" param="15"></outputDevice>
+		</inputDevice>
+		<inputDevice id="CO4" channelCount="3" firstChannel="16">
+			<outputDevice type="Enttec Open" param="16"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Can4" channelCount="1" firstChannel="19" maxIntensity="255">
+			<outputDevice type="Enttec Open" param="19"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L11" channelCount="1" firstChannel="20" maxIntensity="255">
+			<outputDevice type="Enttec Open" param="20"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L1" channelCount="3" firstChannel="21">
+			<outputDevice type="Enttec Open" param="21"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L2" channelCount="3" firstChannel="24">
+			<outputDevice type="Enttec Open" param="24"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L3" channelCount="3" firstChannel="27">
+			<outputDevice type="Enttec Open" param="27"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L4" channelCount="3" firstChannel="30">
+			<outputDevice type="Enttec Open" param="30"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L16" channelCount="3" firstChannel="33">
+			<outputDevice type="Enttec Open" param="33"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L6" channelCount="3" firstChannel="36">
+			<outputDevice type="Enttec Open" param="36"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L7" channelCount="3" firstChannel="39">
+			<outputDevice type="Enttec Open" param="39"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L19" channelCount="3" firstChannel="42">
+			<outputDevice type="Enttec Open" param="42"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L9" channelCount="3" firstChannel="45">
+			<outputDevice type="Enttec Open" param="45"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L10" channelCount="3" firstChannel="48">
+			<outputDevice type="Enttec Open" param="48"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Tube1" channelCount="3" firstChannel="51">
+			<outputDevice type="Enttec Open" param="51"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T1" channelCount="3" firstChannel="54">
+			<outputDevice type="Enttec Open" param="54"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T2" channelCount="3" firstChannel="57">
+			<outputDevice type="Enttec Open" param="57"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T3" channelCount="3" firstChannel="60">
+			<outputDevice type="Enttec Open" param="60"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T4" channelCount="3" firstChannel="63">
+			<outputDevice type="Enttec Open" param="63"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T5" channelCount="3" firstChannel="66">
+			<outputDevice type="Enttec Open" param="66"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T6" channelCount="3" firstChannel="69">
+			<outputDevice type="Enttec Open" param="69"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T7" channelCount="3" firstChannel="72">
+			<outputDevice type="Enttec Open" param="72"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T8" channelCount="3" firstChannel="75">
+			<outputDevice type="Enttec Open" param="75"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T9" channelCount="3" firstChannel="78">
+			<outputDevice type="Enttec Open" param="78"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T10" channelCount="3" firstChannel="81">
+			<outputDevice type="Enttec Open" param="81"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T11" channelCount="3" firstChannel="84">
+			<outputDevice type="Enttec Open" param="84"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T12" channelCount="3" firstChannel="87">
+			<outputDevice type="Enttec Open" param="87"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T13" channelCount="3" firstChannel="90">
+			<outputDevice type="Enttec Open" param="90"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Tube2" channelCount="3" firstChannel="93">
+			<outputDevice type="Enttec Open" param="93"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R10" channelCount="3" firstChannel="96">
+			<outputDevice type="Enttec Open" param="96"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R9" channelCount="3" firstChannel="99">
+			<outputDevice type="Enttec Open" param="99"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R8" channelCount="3" firstChannel="102">
+			<outputDevice type="Enttec Open" param="102"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R7" channelCount="3" firstChannel="105">
+			<outputDevice type="Enttec Open" param="105"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R6" channelCount="3" firstChannel="108">
+			<outputDevice type="Enttec Open" param="108"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R5" channelCount="3" firstChannel="111">
+			<outputDevice type="Enttec Open" param="111"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R4" channelCount="3" firstChannel="114">
+			<outputDevice type="Enttec Open" param="114"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R3" channelCount="3" firstChannel="117">
+			<outputDevice type="Enttec Open" param="117"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R2" channelCount="3" firstChannel="120">
+			<outputDevice type="Enttec Open" param="120"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R1" channelCount="3" firstChannel="123">
+			<outputDevice type="Enttec Open" param="123"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Tube4" channelCount="3" firstChannel="126">
+			<outputDevice type="Enttec Open" param="126"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B13" channelCount="3" firstChannel="129">
+			<outputDevice type="Enttec Open" param="129"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B12" channelCount="3" firstChannel="132">
+			<outputDevice type="Enttec Open" param="132"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B11" channelCount="3" firstChannel="135">
+			<outputDevice type="Enttec Open" param="135"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B10" channelCount="3" firstChannel="138">
+			<outputDevice type="Enttec Open" param="138"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B9" channelCount="3" firstChannel="141">
+			<outputDevice type="Enttec Open" param="141"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B8" channelCount="3" firstChannel="144">
+			<outputDevice type="Enttec Open" param="144"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B7" channelCount="3" firstChannel="147">
+			<outputDevice type="Enttec Open" param="147"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B6" channelCount="3" firstChannel="150">
+			<outputDevice type="Enttec Open" param="150"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B5" channelCount="3" firstChannel="153">
+			<outputDevice type="Enttec Open" param="153"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B4" channelCount="3" firstChannel="156">
+			<outputDevice type="Enttec Open" param="156"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B3" channelCount="3" firstChannel="159">
+			<outputDevice type="Enttec Open" param="159"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B2" channelCount="3" firstChannel="162">
+			<outputDevice type="Enttec Open" param="162"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B1" channelCount="3" firstChannel="165">
+			<outputDevice type="Enttec Open" param="165"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Tube3" channelCount="3" firstChannel="168">
+			<outputDevice type="Enttec Open" param="168"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X1" channelCount="3" firstChannel="171">
+			<outputDevice type="Enttec Open" param="171"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X2" channelCount="3" firstChannel="174">
+			<outputDevice type="Enttec Open" param="174"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X3" channelCount="3" firstChannel="177">
+			<outputDevice type="Enttec Open" param="177"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X4" channelCount="3" firstChannel="180">
+			<outputDevice type="Enttec Open" param="180"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X5" channelCount="3" firstChannel="183">
+			<outputDevice type="Enttec Open" param="183"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X6" channelCount="3" firstChannel="186">
+			<outputDevice type="Enttec Open" param="186"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X7" channelCount="3" firstChannel="189">
+			<outputDevice type="Enttec Open" param="189"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X8" channelCount="3" firstChannel="192">
+			<outputDevice type="Enttec Open" param="192"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X9" channelCount="3" firstChannel="195">
+			<outputDevice type="Enttec Open" param="195"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X10" channelCount="3" firstChannel="198">
+			<outputDevice type="Enttec Open" param="198"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X11" channelCount="3" firstChannel="201">
+			<outputDevice type="Enttec Open" param="201"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X12" channelCount="3" firstChannel="204">
+			<outputDevice type="Enttec Open" param="204"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X13" channelCount="3" firstChannel="207">
+			<outputDevice type="Enttec Open" param="207"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X14" channelCount="3" firstChannel="210">
+			<outputDevice type="Enttec Open" param="210"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X15" channelCount="3" firstChannel="213">
+			<outputDevice type="Enttec Open" param="213"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X16" channelCount="3" firstChannel="216">
+			<outputDevice type="Enttec Open" param="216"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X17" channelCount="3" firstChannel="219">
+			<outputDevice type="Enttec Open" param="219"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X18" channelCount="3" firstChannel="222">
+			<outputDevice type="Enttec Open" param="222"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X19" channelCount="3" firstChannel="225">
+			<outputDevice type="Enttec Open" param="225"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X20" channelCount="3" firstChannel="228">
+			<outputDevice type="Enttec Open" param="228"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X21" channelCount="3" firstChannel="231">
+			<outputDevice type="Enttec Open" param="231"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X22" channelCount="3" firstChannel="234">
+			<outputDevice type="Enttec Open" param="234"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X23" channelCount="3" firstChannel="237">
+			<outputDevice type="Enttec Open" param="237"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X24" channelCount="3" firstChannel="240">
+			<outputDevice type="Enttec Open" param="240"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X25" channelCount="3" firstChannel="243">
+			<outputDevice type="Enttec Open" param="243"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X26" channelCount="3" firstChannel="246">
+			<outputDevice type="Enttec Open" param="246"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X27" channelCount="3" firstChannel="249">
+			<outputDevice type="Enttec Open" param="249"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X28" channelCount="3" firstChannel="252">
+			<outputDevice type="Enttec Open" param="252"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X29" channelCount="3" firstChannel="255">
+			<outputDevice type="Enttec Open" param="255"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X30" channelCount="3" firstChannel="258">
+			<outputDevice type="Enttec Open" param="258"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X31" channelCount="3" firstChannel="261">
+			<outputDevice type="Enttec Open" param="261"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X32" channelCount="3" firstChannel="264">
+			<outputDevice type="Enttec Open" param="264"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X33" channelCount="3" firstChannel="267">
+			<outputDevice type="Enttec Open" param="267"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X34" channelCount="3" firstChannel="270">
+			<outputDevice type="Enttec Open" param="270"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X35" channelCount="3" firstChannel="273">
+			<outputDevice type="Enttec Open" param="273"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X36" channelCount="3" firstChannel="276">
+			<outputDevice type="Enttec Open" param="276"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X37" channelCount="3" firstChannel="279">
+			<outputDevice type="Enttec Open" param="279"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X38" channelCount="3" firstChannel="282">
+			<outputDevice type="Enttec Open" param="282"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X39" channelCount="3" firstChannel="285">
+			<outputDevice type="Enttec Open" param="285"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X40" channelCount="3" firstChannel="288">
+			<outputDevice type="Enttec Open" param="288"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X41" channelCount="3" firstChannel="291">
+			<outputDevice type="Enttec Open" param="291"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X42" channelCount="3" firstChannel="294">
+			<outputDevice type="Enttec Open" param="294"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X43" channelCount="3" firstChannel="297">
+			<outputDevice type="Enttec Open" param="297"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X44" channelCount="3" firstChannel="300">
+			<outputDevice type="Enttec Open" param="300"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X45" channelCount="3" firstChannel="303">
+			<outputDevice type="Enttec Open" param="303"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X46" channelCount="3" firstChannel="306">
+			<outputDevice type="Enttec Open" param="306"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X47" channelCount="3" firstChannel="309">
+			<outputDevice type="Enttec Open" param="309"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X48" channelCount="3" firstChannel="312">
+			<outputDevice type="Enttec Open" param="312"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X49" channelCount="3" firstChannel="315">
+			<outputDevice type="Enttec Open" param="315"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X50" channelCount="3" firstChannel="318">
+			<outputDevice type="Enttec Open" param="318"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Audio" channelCount="1" firstChannel="471" maxIntensity="255">
+			<outputDevice type="Enttec Open" param="471"></outputDevice>
+		</inputDevice>
+		<inputDevice id="WeMo" channelCount="1" firstChannel="472" maxIntensity="255">
+			<outputDevice type="Enttec Open" param="472"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Ceiling" channelCount="3" firstChannel="473">
+			<outputDevice type="Enttec Open" param="473"></outputDevice>
+		</inputDevice>
+	</profile>
+	<profile name="ThalerPortable1StripBridge-v3.12">
+		<inputDevice id="CO1" channelCount="1" firstChannel="1" maxIntensity="255">
+			<outputDevice type="Enttec Open" param="1"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Can1" channelCount="4" firstChannel="2">
+			<outputDevice type="Enttec Open" param="2"></outputDevice>
+		</inputDevice>
+		<inputDevice id="CO2" channelCount="3" firstChannel="6">
+			<outputDevice type="Enttec Open" param="6"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Can2" channelCount="1" firstChannel="9" maxIntensity="255">
+			<outputDevice type="Enttec Open" param="9"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L5" channelCount="1" firstChannel="10" maxIntensity="255">
+			<outputDevice type="Enttec Open" param="10"></outputDevice>
+		</inputDevice>
+		<inputDevice id="CO3" channelCount="3" firstChannel="11">
+			<outputDevice type="Enttec Open" param="11"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Can3" channelCount="1" firstChannel="14" maxIntensity="255">
+			<outputDevice type="Enttec Open" param="14"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L8" channelCount="1" firstChannel="15" maxIntensity="255">
+			<outputDevice type="Enttec Open" param="15"></outputDevice>
+		</inputDevice>
+		<inputDevice id="CO4" channelCount="3" firstChannel="16">
+			<outputDevice type="Enttec Open" param="16"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Can4" channelCount="1" firstChannel="19" maxIntensity="255">
+			<outputDevice type="Enttec Open" param="19"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L11" channelCount="1" firstChannel="20" maxIntensity="255">
+			<outputDevice type="Enttec Open" param="20"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L1" channelCount="3" firstChannel="21">
+			<outputDevice type="Enttec Open" param="21"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L2" channelCount="3" firstChannel="24">
+			<outputDevice type="Enttec Open" param="24"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L3" channelCount="3" firstChannel="27">
+			<outputDevice type="Enttec Open" param="27"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L4" channelCount="3" firstChannel="30">
+			<outputDevice type="Enttec Open" param="30"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L16" channelCount="3" firstChannel="33">
+			<outputDevice type="Enttec Open" param="33"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L6" channelCount="3" firstChannel="36">
+			<outputDevice type="Enttec Open" param="36"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L7" channelCount="3" firstChannel="39">
+			<outputDevice type="Enttec Open" param="39"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L19" channelCount="3" firstChannel="42">
+			<outputDevice type="Enttec Open" param="42"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L9" channelCount="3" firstChannel="45">
+			<outputDevice type="Enttec Open" param="45"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L10" channelCount="3" firstChannel="48">
+			<outputDevice type="Enttec Open" param="48"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Tube1" channelCount="3" firstChannel="51">
+			<outputDevice type="Enttec Open" param="51"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T1" channelCount="3" firstChannel="54">
+			<outputDevice type="Enttec Open" param="54"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T2" channelCount="3" firstChannel="57">
+			<outputDevice type="Enttec Open" param="57"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T3" channelCount="3" firstChannel="60">
+			<outputDevice type="Enttec Open" param="60"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T4" channelCount="3" firstChannel="63">
+			<outputDevice type="Enttec Open" param="63"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T5" channelCount="3" firstChannel="66">
+			<outputDevice type="Enttec Open" param="66"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T6" channelCount="3" firstChannel="69">
+			<outputDevice type="Enttec Open" param="69"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T7" channelCount="3" firstChannel="72">
+			<outputDevice type="Enttec Open" param="72"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T8" channelCount="3" firstChannel="75">
+			<outputDevice type="Enttec Open" param="75"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T9" channelCount="3" firstChannel="78">
+			<outputDevice type="Enttec Open" param="78"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T10" channelCount="3" firstChannel="81">
+			<outputDevice type="Enttec Open" param="81"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T11" channelCount="3" firstChannel="84">
+			<outputDevice type="Enttec Open" param="84"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T12" channelCount="3" firstChannel="87">
+			<outputDevice type="Enttec Open" param="87"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T13" channelCount="3" firstChannel="90">
+			<outputDevice type="Enttec Open" param="90"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Tube2" channelCount="3" firstChannel="93">
+			<outputDevice type="Enttec Open" param="93"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R10" channelCount="3" firstChannel="96">
+			<outputDevice type="Enttec Open" param="96"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R9" channelCount="3" firstChannel="99">
+			<outputDevice type="Enttec Open" param="99"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R8" channelCount="3" firstChannel="102">
+			<outputDevice type="Enttec Open" param="102"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R7" channelCount="3" firstChannel="105">
+			<outputDevice type="Enttec Open" param="105"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R6" channelCount="3" firstChannel="108">
+			<outputDevice type="Enttec Open" param="108"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R5" channelCount="3" firstChannel="111">
+			<outputDevice type="Enttec Open" param="111"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R4" channelCount="3" firstChannel="114">
+			<outputDevice type="Enttec Open" param="114"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R3" channelCount="3" firstChannel="117">
+			<outputDevice type="Enttec Open" param="117"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R2" channelCount="3" firstChannel="120">
+			<outputDevice type="Enttec Open" param="120"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R1" channelCount="3" firstChannel="123">
+			<outputDevice type="Enttec Open" param="123"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Tube4" channelCount="3" firstChannel="126">
+			<outputDevice type="Enttec Open" param="126"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B13" channelCount="3" firstChannel="129">
+			<outputDevice type="Enttec Open" param="129"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B12" channelCount="3" firstChannel="132">
+			<outputDevice type="Enttec Open" param="132"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B11" channelCount="3" firstChannel="135">
+			<outputDevice type="Enttec Open" param="135"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B10" channelCount="3" firstChannel="138">
+			<outputDevice type="Enttec Open" param="138"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B9" channelCount="3" firstChannel="141">
+			<outputDevice type="Enttec Open" param="141"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B8" channelCount="3" firstChannel="144">
+			<outputDevice type="Enttec Open" param="144"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B7" channelCount="3" firstChannel="147">
+			<outputDevice type="Enttec Open" param="147"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B6" channelCount="3" firstChannel="150">
+			<outputDevice type="Enttec Open" param="150"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B5" channelCount="3" firstChannel="153">
+			<outputDevice type="Enttec Open" param="153"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B4" channelCount="3" firstChannel="156">
+			<outputDevice type="Enttec Open" param="156"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B3" channelCount="3" firstChannel="159">
+			<outputDevice type="Enttec Open" param="159"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B2" channelCount="3" firstChannel="162">
+			<outputDevice type="Enttec Open" param="162"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B1" channelCount="3" firstChannel="165">
+			<outputDevice type="Enttec Open" param="165"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Tube3" channelCount="3" firstChannel="168">
+			<outputDevice type="Enttec Open" param="168"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Audio" channelCount="1" firstChannel="471" maxIntensity="255">
+			<outputDevice type="Enttec Open" param="471"></outputDevice>
+		</inputDevice>
+		<inputDevice id="WeMo" channelCount="1" firstChannel="472" maxIntensity="255">
+			<outputDevice type="Enttec Open" param="472"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Ceiling" channelCount="3" firstChannel="473">
+			<outputDevice type="Enttec Open" param="473"></outputDevice>
+		</inputDevice>
+	</profile>
+	<profile name="Emulated">
+		<inputDevice id="CO1" channelCount="1" firstChannel="1" maxIntensity="255">
+			<outputDevice type="Emulated" param="1"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Can1" channelCount="4" firstChannel="2">
+			<outputDevice type="Emulated" param="2"></outputDevice>
+		</inputDevice>
+		<inputDevice id="CO2" channelCount="3" firstChannel="6">
+			<outputDevice type="Emulated" param="6"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Can2" channelCount="1" firstChannel="9" maxIntensity="255">
+			<outputDevice type="Emulated" param="9"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L5" channelCount="1" firstChannel="10" maxIntensity="255">
+			<outputDevice type="Emulated" param="10"></outputDevice>
+		</inputDevice>
+		<inputDevice id="CO3" channelCount="3" firstChannel="11">
+			<outputDevice type="Emulated" param="11"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Can3" channelCount="1" firstChannel="14" maxIntensity="255">
+			<outputDevice type="Emulated" param="14"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L8" channelCount="1" firstChannel="15" maxIntensity="255">
+			<outputDevice type="Emulated" param="15"></outputDevice>
+		</inputDevice>
+		<inputDevice id="CO4" channelCount="3" firstChannel="16">
+			<outputDevice type="Emulated" param="16"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Can4" channelCount="1" firstChannel="19" maxIntensity="255">
+			<outputDevice type="Emulated" param="19"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L11" channelCount="1" firstChannel="20" maxIntensity="255">
+			<outputDevice type="Emulated" param="20"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L1" channelCount="3" firstChannel="21">
+			<outputDevice type="Emulated" param="21"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L2" channelCount="3" firstChannel="24">
+			<outputDevice type="Emulated" param="24"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L3" channelCount="3" firstChannel="27">
+			<outputDevice type="Emulated" param="27"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L4" channelCount="3" firstChannel="30">
+			<outputDevice type="Emulated" param="30"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L16" channelCount="3" firstChannel="33">
+			<outputDevice type="Emulated" param="33"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L6" channelCount="3" firstChannel="36">
+			<outputDevice type="Emulated" param="36"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L7" channelCount="3" firstChannel="39">
+			<outputDevice type="Emulated" param="39"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L19" channelCount="3" firstChannel="42">
+			<outputDevice type="Emulated" param="42"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L9" channelCount="3" firstChannel="45">
+			<outputDevice type="Emulated" param="45"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L10" channelCount="3" firstChannel="48">
+			<outputDevice type="Emulated" param="48"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Tube1" channelCount="3" firstChannel="51">
+			<outputDevice type="Emulated" param="51"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T1" channelCount="3" firstChannel="54">
+			<outputDevice type="Emulated" param="54"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T2" channelCount="3" firstChannel="57">
+			<outputDevice type="Emulated" param="57"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T3" channelCount="3" firstChannel="60">
+			<outputDevice type="Emulated" param="60"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T4" channelCount="3" firstChannel="63">
+			<outputDevice type="Emulated" param="63"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T5" channelCount="3" firstChannel="66">
+			<outputDevice type="Emulated" param="66"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T6" channelCount="3" firstChannel="69">
+			<outputDevice type="Emulated" param="69"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T7" channelCount="3" firstChannel="72">
+			<outputDevice type="Emulated" param="72"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T8" channelCount="3" firstChannel="75">
+			<outputDevice type="Emulated" param="75"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T9" channelCount="3" firstChannel="78">
+			<outputDevice type="Emulated" param="78"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T10" channelCount="3" firstChannel="81">
+			<outputDevice type="Emulated" param="81"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T11" channelCount="3" firstChannel="84">
+			<outputDevice type="Emulated" param="84"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T12" channelCount="3" firstChannel="87">
+			<outputDevice type="Emulated" param="87"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T13" channelCount="3" firstChannel="90">
+			<outputDevice type="Emulated" param="90"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Tube2" channelCount="3" firstChannel="93">
+			<outputDevice type="Emulated" param="93"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R10" channelCount="3" firstChannel="96">
+			<outputDevice type="Emulated" param="96"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R9" channelCount="3" firstChannel="99">
+			<outputDevice type="Emulated" param="99"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R8" channelCount="3" firstChannel="102">
+			<outputDevice type="Emulated" param="102"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R7" channelCount="3" firstChannel="105">
+			<outputDevice type="Emulated" param="105"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R6" channelCount="3" firstChannel="108">
+			<outputDevice type="Emulated" param="108"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R5" channelCount="3" firstChannel="111">
+			<outputDevice type="Emulated" param="111"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R4" channelCount="3" firstChannel="114">
+			<outputDevice type="Emulated" param="114"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R3" channelCount="3" firstChannel="117">
+			<outputDevice type="Emulated" param="117"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R2" channelCount="3" firstChannel="120">
+			<outputDevice type="Emulated" param="120"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R1" channelCount="3" firstChannel="123">
+			<outputDevice type="Emulated" param="123"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Tube4" channelCount="3" firstChannel="126">
+			<outputDevice type="Emulated" param="126"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B13" channelCount="3" firstChannel="129">
+			<outputDevice type="Emulated" param="129"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B12" channelCount="3" firstChannel="132">
+			<outputDevice type="Emulated" param="132"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B11" channelCount="3" firstChannel="135">
+			<outputDevice type="Emulated" param="135"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B10" channelCount="3" firstChannel="138">
+			<outputDevice type="Emulated" param="138"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B9" channelCount="3" firstChannel="141">
+			<outputDevice type="Emulated" param="141"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B8" channelCount="3" firstChannel="144">
+			<outputDevice type="Emulated" param="144"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B7" channelCount="3" firstChannel="147">
+			<outputDevice type="Emulated" param="147"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B6" channelCount="3" firstChannel="150">
+			<outputDevice type="Emulated" param="150"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B5" channelCount="3" firstChannel="153">
+			<outputDevice type="Emulated" param="153"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B4" channelCount="3" firstChannel="156">
+			<outputDevice type="Emulated" param="156"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B3" channelCount="3" firstChannel="159">
+			<outputDevice type="Emulated" param="159"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B2" channelCount="3" firstChannel="162">
+			<outputDevice type="Emulated" param="162"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B1" channelCount="3" firstChannel="165">
+			<outputDevice type="Emulated" param="165"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Tube3" channelCount="3" firstChannel="168">
+			<outputDevice type="Emulated" param="168"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X1" channelCount="3" firstChannel="171">
+			<outputDevice type="Emulated" param="171"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X2" channelCount="3" firstChannel="174">
+			<outputDevice type="Emulated" param="174"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X3" channelCount="3" firstChannel="177">
+			<outputDevice type="Emulated" param="177"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X4" channelCount="3" firstChannel="180">
+			<outputDevice type="Emulated" param="180"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X5" channelCount="3" firstChannel="183">
+			<outputDevice type="Emulated" param="183"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X6" channelCount="3" firstChannel="186">
+			<outputDevice type="Emulated" param="186"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X7" channelCount="3" firstChannel="189">
+			<outputDevice type="Emulated" param="189"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X8" channelCount="3" firstChannel="192">
+			<outputDevice type="Emulated" param="192"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X9" channelCount="3" firstChannel="195">
+			<outputDevice type="Emulated" param="195"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X10" channelCount="3" firstChannel="198">
+			<outputDevice type="Emulated" param="198"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X11" channelCount="3" firstChannel="201">
+			<outputDevice type="Emulated" param="201"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X12" channelCount="3" firstChannel="204">
+			<outputDevice type="Emulated" param="204"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X13" channelCount="3" firstChannel="207">
+			<outputDevice type="Emulated" param="207"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X14" channelCount="3" firstChannel="210">
+			<outputDevice type="Emulated" param="210"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X15" channelCount="3" firstChannel="213">
+			<outputDevice type="Emulated" param="213"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X16" channelCount="3" firstChannel="216">
+			<outputDevice type="Emulated" param="216"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X17" channelCount="3" firstChannel="219">
+			<outputDevice type="Emulated" param="219"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X18" channelCount="3" firstChannel="222">
+			<outputDevice type="Emulated" param="222"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X19" channelCount="3" firstChannel="225">
+			<outputDevice type="Emulated" param="225"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X20" channelCount="3" firstChannel="228">
+			<outputDevice type="Emulated" param="228"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X21" channelCount="3" firstChannel="231">
+			<outputDevice type="Emulated" param="231"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X22" channelCount="3" firstChannel="234">
+			<outputDevice type="Emulated" param="234"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X23" channelCount="3" firstChannel="237">
+			<outputDevice type="Emulated" param="237"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X24" channelCount="3" firstChannel="240">
+			<outputDevice type="Emulated" param="240"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X25" channelCount="3" firstChannel="243">
+			<outputDevice type="Emulated" param="243"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X26" channelCount="3" firstChannel="246">
+			<outputDevice type="Emulated" param="246"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X27" channelCount="3" firstChannel="249">
+			<outputDevice type="Emulated" param="249"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X28" channelCount="3" firstChannel="252">
+			<outputDevice type="Emulated" param="252"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X29" channelCount="3" firstChannel="255">
+			<outputDevice type="Emulated" param="255"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X30" channelCount="3" firstChannel="258">
+			<outputDevice type="Emulated" param="258"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X31" channelCount="3" firstChannel="261">
+			<outputDevice type="Emulated" param="261"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X32" channelCount="3" firstChannel="264">
+			<outputDevice type="Emulated" param="264"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X33" channelCount="3" firstChannel="267">
+			<outputDevice type="Emulated" param="267"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X34" channelCount="3" firstChannel="270">
+			<outputDevice type="Emulated" param="270"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X35" channelCount="3" firstChannel="273">
+			<outputDevice type="Emulated" param="273"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X36" channelCount="3" firstChannel="276">
+			<outputDevice type="Emulated" param="276"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X37" channelCount="3" firstChannel="279">
+			<outputDevice type="Emulated" param="279"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X38" channelCount="3" firstChannel="282">
+			<outputDevice type="Emulated" param="282"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X39" channelCount="3" firstChannel="285">
+			<outputDevice type="Emulated" param="285"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X40" channelCount="3" firstChannel="288">
+			<outputDevice type="Emulated" param="288"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X41" channelCount="3" firstChannel="291">
+			<outputDevice type="Emulated" param="291"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X42" channelCount="3" firstChannel="294">
+			<outputDevice type="Emulated" param="294"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X43" channelCount="3" firstChannel="297">
+			<outputDevice type="Emulated" param="297"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X44" channelCount="3" firstChannel="300">
+			<outputDevice type="Emulated" param="300"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X45" channelCount="3" firstChannel="303">
+			<outputDevice type="Emulated" param="303"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X46" channelCount="3" firstChannel="306">
+			<outputDevice type="Emulated" param="306"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X47" channelCount="3" firstChannel="309">
+			<outputDevice type="Emulated" param="309"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X48" channelCount="3" firstChannel="312">
+			<outputDevice type="Emulated" param="312"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X49" channelCount="3" firstChannel="315">
+			<outputDevice type="Emulated" param="315"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X50" channelCount="3" firstChannel="318">
+			<outputDevice type="Emulated" param="318"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Audio" channelCount="1" firstChannel="471" maxIntensity="255">
+			<outputDevice type="Emulated" param="471"></outputDevice>
+		</inputDevice>
+		<inputDevice id="WeMo" channelCount="1" firstChannel="472" maxIntensity="255">
+			<outputDevice type="Emulated" param="472"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Ceiling" channelCount="3" firstChannel="473">
+			<outputDevice type="Emulated" param="473"></outputDevice>
+		</inputDevice>
+	</profile>
+	<profile name="OtherController"></profile>
+	<profile name="ThalerPortable2StripBridge-v3.12">
+		<inputDevice id="CO1" channelCount="1" firstChannel="1" maxIntensity="255">
+			<outputDevice type="Enttec Open" param="1"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Can1" channelCount="4" firstChannel="2">
+			<outputDevice type="Enttec Open" param="2"></outputDevice>
+		</inputDevice>
+		<inputDevice id="CO2" channelCount="3" firstChannel="6">
+			<outputDevice type="Enttec Open" param="6"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Can2" channelCount="1" firstChannel="9" maxIntensity="255">
+			<outputDevice type="Enttec Open" param="9"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L5" channelCount="1" firstChannel="10" maxIntensity="255">
+			<outputDevice type="Enttec Open" param="10"></outputDevice>
+		</inputDevice>
+		<inputDevice id="CO3" channelCount="3" firstChannel="11">
+			<outputDevice type="Enttec Open" param="11"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Can3" channelCount="1" firstChannel="14" maxIntensity="255">
+			<outputDevice type="Enttec Open" param="14"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L8" channelCount="1" firstChannel="15" maxIntensity="255">
+			<outputDevice type="Enttec Open" param="15"></outputDevice>
+		</inputDevice>
+		<inputDevice id="CO4" channelCount="3" firstChannel="16">
+			<outputDevice type="Enttec Open" param="16"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Can4" channelCount="1" firstChannel="19" maxIntensity="255">
+			<outputDevice type="Enttec Open" param="19"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L11" channelCount="1" firstChannel="20" maxIntensity="255">
+			<outputDevice type="Enttec Open" param="20"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X1" channelCount="3" firstChannel="21">
+			<outputDevice type="Enttec Open" param="21"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X2" channelCount="3" firstChannel="24">
+			<outputDevice type="Enttec Open" param="24"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X3" channelCount="3" firstChannel="27">
+			<outputDevice type="Enttec Open" param="27"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X4" channelCount="3" firstChannel="30">
+			<outputDevice type="Enttec Open" param="30"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X5" channelCount="3" firstChannel="33">
+			<outputDevice type="Enttec Open" param="33"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X6" channelCount="3" firstChannel="36">
+			<outputDevice type="Enttec Open" param="36"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X7" channelCount="3" firstChannel="39">
+			<outputDevice type="Enttec Open" param="39"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X8" channelCount="3" firstChannel="42">
+			<outputDevice type="Enttec Open" param="42"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X9" channelCount="3" firstChannel="45">
+			<outputDevice type="Enttec Open" param="45"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X10" channelCount="3" firstChannel="48">
+			<outputDevice type="Enttec Open" param="48"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X11" channelCount="3" firstChannel="51">
+			<outputDevice type="Enttec Open" param="51"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X12" channelCount="3" firstChannel="54">
+			<outputDevice type="Enttec Open" param="54"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X13" channelCount="3" firstChannel="57">
+			<outputDevice type="Enttec Open" param="57"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X14" channelCount="3" firstChannel="60">
+			<outputDevice type="Enttec Open" param="60"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X15" channelCount="3" firstChannel="63">
+			<outputDevice type="Enttec Open" param="63"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X16" channelCount="3" firstChannel="66">
+			<outputDevice type="Enttec Open" param="66"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X17" channelCount="3" firstChannel="69">
+			<outputDevice type="Enttec Open" param="69"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X18" channelCount="3" firstChannel="72">
+			<outputDevice type="Enttec Open" param="72"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X19" channelCount="3" firstChannel="75">
+			<outputDevice type="Enttec Open" param="75"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X20" channelCount="3" firstChannel="78">
+			<outputDevice type="Enttec Open" param="78"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X21" channelCount="3" firstChannel="81">
+			<outputDevice type="Enttec Open" param="81"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X22" channelCount="3" firstChannel="84">
+			<outputDevice type="Enttec Open" param="84"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X23" channelCount="3" firstChannel="87">
+			<outputDevice type="Enttec Open" param="87"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X24" channelCount="3" firstChannel="90">
+			<outputDevice type="Enttec Open" param="90"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X25" channelCount="3" firstChannel="93">
+			<outputDevice type="Enttec Open" param="93"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X26" channelCount="3" firstChannel="96">
+			<outputDevice type="Enttec Open" param="96"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X27" channelCount="3" firstChannel="99">
+			<outputDevice type="Enttec Open" param="99"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X28" channelCount="3" firstChannel="102">
+			<outputDevice type="Enttec Open" param="102"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X29" channelCount="3" firstChannel="105">
+			<outputDevice type="Enttec Open" param="105"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X30" channelCount="3" firstChannel="108">
+			<outputDevice type="Enttec Open" param="108"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X31" channelCount="3" firstChannel="111">
+			<outputDevice type="Enttec Open" param="111"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X32" channelCount="3" firstChannel="114">
+			<outputDevice type="Enttec Open" param="114"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X33" channelCount="3" firstChannel="117">
+			<outputDevice type="Enttec Open" param="117"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X34" channelCount="3" firstChannel="120">
+			<outputDevice type="Enttec Open" param="120"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X35" channelCount="3" firstChannel="123">
+			<outputDevice type="Enttec Open" param="123"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X36" channelCount="3" firstChannel="126">
+			<outputDevice type="Enttec Open" param="126"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X37" channelCount="3" firstChannel="129">
+			<outputDevice type="Enttec Open" param="129"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X38" channelCount="3" firstChannel="132">
+			<outputDevice type="Enttec Open" param="132"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X39" channelCount="3" firstChannel="135">
+			<outputDevice type="Enttec Open" param="135"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X40" channelCount="3" firstChannel="138">
+			<outputDevice type="Enttec Open" param="138"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X41" channelCount="3" firstChannel="141">
+			<outputDevice type="Enttec Open" param="141"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X42" channelCount="3" firstChannel="144">
+			<outputDevice type="Enttec Open" param="144"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X43" channelCount="3" firstChannel="147">
+			<outputDevice type="Enttec Open" param="147"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X44" channelCount="3" firstChannel="150">
+			<outputDevice type="Enttec Open" param="150"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X45" channelCount="3" firstChannel="153">
+			<outputDevice type="Enttec Open" param="153"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X46" channelCount="3" firstChannel="156">
+			<outputDevice type="Enttec Open" param="156"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X47" channelCount="3" firstChannel="159">
+			<outputDevice type="Enttec Open" param="159"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X48" channelCount="3" firstChannel="162">
+			<outputDevice type="Enttec Open" param="162"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X49" channelCount="3" firstChannel="165">
+			<outputDevice type="Enttec Open" param="165"></outputDevice>
+		</inputDevice>
+		<inputDevice id="X50" channelCount="3" firstChannel="168">
+			<outputDevice type="Enttec Open" param="168"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L1" channelCount="3" firstChannel="171">
+			<outputDevice type="Enttec Open" param="171"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L2" channelCount="3" firstChannel="174">
+			<outputDevice type="Enttec Open" param="174"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L3" channelCount="3" firstChannel="177">
+			<outputDevice type="Enttec Open" param="177"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L4" channelCount="3" firstChannel="180">
+			<outputDevice type="Enttec Open" param="180"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L66" channelCount="3" firstChannel="183">
+			<outputDevice type="Enttec Open" param="183"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L6" channelCount="3" firstChannel="186">
+			<outputDevice type="Enttec Open" param="186"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L7" channelCount="3" firstChannel="189">
+			<outputDevice type="Enttec Open" param="189"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L69" channelCount="3" firstChannel="192">
+			<outputDevice type="Enttec Open" param="192"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L9" channelCount="3" firstChannel="195">
+			<outputDevice type="Enttec Open" param="195"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L10" channelCount="3" firstChannel="198">
+			<outputDevice type="Enttec Open" param="198"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Tube1" channelCount="3" firstChannel="201">
+			<outputDevice type="Enttec Open" param="201"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T1" channelCount="3" firstChannel="204">
+			<outputDevice type="Enttec Open" param="204"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T2" channelCount="3" firstChannel="207">
+			<outputDevice type="Enttec Open" param="207"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T3" channelCount="3" firstChannel="210">
+			<outputDevice type="Enttec Open" param="210"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T4" channelCount="3" firstChannel="213">
+			<outputDevice type="Enttec Open" param="213"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T5" channelCount="3" firstChannel="216">
+			<outputDevice type="Enttec Open" param="216"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T6" channelCount="3" firstChannel="219">
+			<outputDevice type="Enttec Open" param="219"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T7" channelCount="3" firstChannel="222">
+			<outputDevice type="Enttec Open" param="222"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T8" channelCount="3" firstChannel="225">
+			<outputDevice type="Enttec Open" param="225"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T9" channelCount="3" firstChannel="228">
+			<outputDevice type="Enttec Open" param="228"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T10" channelCount="3" firstChannel="231">
+			<outputDevice type="Enttec Open" param="231"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T11" channelCount="3" firstChannel="234">
+			<outputDevice type="Enttec Open" param="234"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T12" channelCount="3" firstChannel="237">
+			<outputDevice type="Enttec Open" param="237"></outputDevice>
+		</inputDevice>
+		<inputDevice id="T13" channelCount="3" firstChannel="240">
+			<outputDevice type="Enttec Open" param="240"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Tube2" channelCount="3" firstChannel="243">
+			<outputDevice type="Enttec Open" param="243"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R10" channelCount="3" firstChannel="246">
+			<outputDevice type="Enttec Open" param="246"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R9" channelCount="3" firstChannel="249">
+			<outputDevice type="Enttec Open" param="249"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R8" channelCount="3" firstChannel="252">
+			<outputDevice type="Enttec Open" param="252"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R7" channelCount="3" firstChannel="255">
+			<outputDevice type="Enttec Open" param="255"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R6" channelCount="3" firstChannel="258">
+			<outputDevice type="Enttec Open" param="258"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R5" channelCount="3" firstChannel="261">
+			<outputDevice type="Enttec Open" param="261"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R4" channelCount="3" firstChannel="264">
+			<outputDevice type="Enttec Open" param="264"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R3" channelCount="3" firstChannel="267">
+			<outputDevice type="Enttec Open" param="267"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R2" channelCount="3" firstChannel="270">
+			<outputDevice type="Enttec Open" param="270"></outputDevice>
+		</inputDevice>
+		<inputDevice id="R1" channelCount="3" firstChannel="273">
+			<outputDevice type="Enttec Open" param="273"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Tube4" channelCount="3" firstChannel="276">
+			<outputDevice type="Enttec Open" param="276"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B13" channelCount="3" firstChannel="279">
+			<outputDevice type="Enttec Open" param="279"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B12" channelCount="3" firstChannel="282">
+			<outputDevice type="Enttec Open" param="282"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B11" channelCount="3" firstChannel="285">
+			<outputDevice type="Enttec Open" param="285"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B10" channelCount="3" firstChannel="288">
+			<outputDevice type="Enttec Open" param="288"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B9" channelCount="3" firstChannel="291">
+			<outputDevice type="Enttec Open" param="291"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B8" channelCount="3" firstChannel="294">
+			<outputDevice type="Enttec Open" param="294"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B7" channelCount="3" firstChannel="297">
+			<outputDevice type="Enttec Open" param="297"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B6" channelCount="3" firstChannel="300">
+			<outputDevice type="Enttec Open" param="300"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B5" channelCount="3" firstChannel="303">
+			<outputDevice type="Enttec Open" param="303"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B4" channelCount="3" firstChannel="306">
+			<outputDevice type="Enttec Open" param="306"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B3" channelCount="3" firstChannel="309">
+			<outputDevice type="Enttec Open" param="309"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B2" channelCount="3" firstChannel="312">
+			<outputDevice type="Enttec Open" param="312"></outputDevice>
+		</inputDevice>
+		<inputDevice id="B1" channelCount="3" firstChannel="315">
+			<outputDevice type="Enttec Open" param="315"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Tube3" channelCount="3" firstChannel="318">
+			<outputDevice type="Enttec Open" param="318"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Audio" channelCount="1" firstChannel="471" maxIntensity="255">
+			<outputDevice type="Enttec Open" param="471"></outputDevice>
+		</inputDevice>
+		<inputDevice id="WeMo" channelCount="1" firstChannel="472" maxIntensity="255">
+			<outputDevice type="Enttec Open" param="472"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Ceiling" channelCount="3" firstChannel="473">
+			<outputDevice type="Enttec Open" param="473"></outputDevice>
+		</inputDevice>
+	</profile>
+	<profile name="PaxWest20">
+		<inputDevice id="L1" channelCount="3" firstChannel="20">
+			<outputDevice type="Enttec Open" param="20"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L2" channelCount="3" firstChannel="23">
+			<outputDevice type="Enttec Open" param="23"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L3" channelCount="3" firstChannel="26">
+			<outputDevice type="Enttec Open" param="26"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L4" channelCount="3" firstChannel="29">
+			<outputDevice type="Enttec Open" param="29"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L5" channelCount="3" firstChannel="32">
+			<outputDevice type="Enttec Open" param="32"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L6" channelCount="3" firstChannel="35">
+			<outputDevice type="Enttec Open" param="35"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L7" channelCount="3" firstChannel="38">
+			<outputDevice type="Enttec Open" param="38"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L8" channelCount="3" firstChannel="41">
+			<outputDevice type="Enttec Open" param="41"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L9" channelCount="3" firstChannel="44">
+			<outputDevice type="Enttec Open" param="44"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L10" channelCount="3" firstChannel="47">
+			<outputDevice type="Enttec Open" param="47"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L11" channelCount="3" firstChannel="50">
+			<outputDevice type="Enttec Open" param="50"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L12" channelCount="3" firstChannel="53">
+			<outputDevice type="Enttec Open" param="53"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L13" channelCount="3" firstChannel="56">
+			<outputDevice type="Enttec Open" param="56"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L14" channelCount="3" firstChannel="59">
+			<outputDevice type="Enttec Open" param="59"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L15" channelCount="3" firstChannel="62">
+			<outputDevice type="Enttec Open" param="62"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L16" channelCount="3" firstChannel="65">
+			<outputDevice type="Enttec Open" param="65"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L17" channelCount="3" firstChannel="68">
+			<outputDevice type="Enttec Open" param="68"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L18" channelCount="3" firstChannel="71">
+			<outputDevice type="Enttec Open" param="71"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L19" channelCount="3" firstChannel="74">
+			<outputDevice type="Enttec Open" param="74"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L20" channelCount="3" firstChannel="77">
+			<outputDevice type="Enttec Open" param="77"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L21" channelCount="3" firstChannel="80">
+			<outputDevice type="Enttec Open" param="80"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L22" channelCount="3" firstChannel="83">
+			<outputDevice type="Enttec Open" param="83"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L23" channelCount="3" firstChannel="86">
+			<outputDevice type="Enttec Open" param="86"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L24" channelCount="3" firstChannel="89">
+			<outputDevice type="Enttec Open" param="89"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L25" channelCount="3" firstChannel="92">
+			<outputDevice type="Enttec Open" param="92"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L26" channelCount="3" firstChannel="95">
+			<outputDevice type="Enttec Open" param="95"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L27" channelCount="3" firstChannel="98">
+			<outputDevice type="Enttec Open" param="98"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L28" channelCount="3" firstChannel="101">
+			<outputDevice type="Enttec Open" param="101"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L29" channelCount="3" firstChannel="104">
+			<outputDevice type="Enttec Open" param="104"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L30" channelCount="3" firstChannel="107">
+			<outputDevice type="Enttec Open" param="107"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L31" channelCount="3" firstChannel="110">
+			<outputDevice type="Enttec Open" param="110"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L32" channelCount="3" firstChannel="113">
+			<outputDevice type="Enttec Open" param="113"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L33" channelCount="3" firstChannel="116">
+			<outputDevice type="Enttec Open" param="116"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L34" channelCount="3" firstChannel="119">
+			<outputDevice type="Enttec Open" param="119"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L35" channelCount="3" firstChannel="122">
+			<outputDevice type="Enttec Open" param="122"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L36" channelCount="3" firstChannel="125">
+			<outputDevice type="Enttec Open" param="125"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L37" channelCount="3" firstChannel="128">
+			<outputDevice type="Enttec Open" param="128"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L38" channelCount="3" firstChannel="131">
+			<outputDevice type="Enttec Open" param="131"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L39" channelCount="3" firstChannel="134">
+			<outputDevice type="Enttec Open" param="134"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L40" channelCount="3" firstChannel="137">
+			<outputDevice type="Enttec Open" param="137"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L41" channelCount="3" firstChannel="140">
+			<outputDevice type="Enttec Open" param="140"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L42" channelCount="3" firstChannel="143">
+			<outputDevice type="Enttec Open" param="143"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L43" channelCount="3" firstChannel="146">
+			<outputDevice type="Enttec Open" param="146"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L44" channelCount="3" firstChannel="149">
+			<outputDevice type="Enttec Open" param="149"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L45" channelCount="3" firstChannel="152">
+			<outputDevice type="Enttec Open" param="152"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L46" channelCount="3" firstChannel="155">
+			<outputDevice type="Enttec Open" param="155"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L47" channelCount="3" firstChannel="158">
+			<outputDevice type="Enttec Open" param="158"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L48" channelCount="3" firstChannel="161">
+			<outputDevice type="Enttec Open" param="161"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L49" channelCount="3" firstChannel="164">
+			<outputDevice type="Enttec Open" param="164"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L50" channelCount="3" firstChannel="167">
+			<outputDevice type="Enttec Open" param="167"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L51" channelCount="3" firstChannel="170">
+			<outputDevice type="Enttec Open" param="170"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L52" channelCount="3" firstChannel="173">
+			<outputDevice type="Enttec Open" param="173"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L53" channelCount="3" firstChannel="176">
+			<outputDevice type="Enttec Open" param="176"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L54" channelCount="3" firstChannel="179">
+			<outputDevice type="Enttec Open" param="179"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L55" channelCount="3" firstChannel="182">
+			<outputDevice type="Enttec Open" param="182"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L56" channelCount="3" firstChannel="185">
+			<outputDevice type="Enttec Open" param="185"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L57" channelCount="3" firstChannel="188">
+			<outputDevice type="Enttec Open" param="188"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L58" channelCount="3" firstChannel="191">
+			<outputDevice type="Enttec Open" param="191"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L59" channelCount="3" firstChannel="194">
+			<outputDevice type="Enttec Open" param="194"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L60" channelCount="3" firstChannel="197">
+			<outputDevice type="Enttec Open" param="197"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L61" channelCount="3" firstChannel="200">
+			<outputDevice type="Enttec Open" param="200"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L62" channelCount="3" firstChannel="203">
+			<outputDevice type="Enttec Open" param="203"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L63" channelCount="3" firstChannel="206">
+			<outputDevice type="Enttec Open" param="206"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L64" channelCount="3" firstChannel="209">
+			<outputDevice type="Enttec Open" param="209"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L65" channelCount="3" firstChannel="212">
+			<outputDevice type="Enttec Open" param="212"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L66" channelCount="3" firstChannel="215">
+			<outputDevice type="Enttec Open" param="215"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L67" channelCount="3" firstChannel="218">
+			<outputDevice type="Enttec Open" param="218"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L68" channelCount="3" firstChannel="221">
+			<outputDevice type="Enttec Open" param="221"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L69" channelCount="3" firstChannel="224">
+			<outputDevice type="Enttec Open" param="224"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L70" channelCount="3" firstChannel="227">
+			<outputDevice type="Enttec Open" param="227"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L71" channelCount="3" firstChannel="230">
+			<outputDevice type="Enttec Open" param="230"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L72" channelCount="3" firstChannel="233">
+			<outputDevice type="Enttec Open" param="233"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L73" channelCount="3" firstChannel="236">
+			<outputDevice type="Enttec Open" param="236"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L74" channelCount="3" firstChannel="239">
+			<outputDevice type="Enttec Open" param="239"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L75" channelCount="3" firstChannel="242">
+			<outputDevice type="Enttec Open" param="242"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L76" channelCount="3" firstChannel="245">
+			<outputDevice type="Enttec Open" param="245"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L77" channelCount="3" firstChannel="248">
+			<outputDevice type="Enttec Open" param="248"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L78" channelCount="3" firstChannel="251">
+			<outputDevice type="Enttec Open" param="251"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L79" channelCount="3" firstChannel="254">
+			<outputDevice type="Enttec Open" param="254"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L80" channelCount="3" firstChannel="257">
+			<outputDevice type="Enttec Open" param="257"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L81" channelCount="3" firstChannel="260">
+			<outputDevice type="Enttec Open" param="260"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L82" channelCount="3" firstChannel="263">
+			<outputDevice type="Enttec Open" param="263"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L83" channelCount="3" firstChannel="266">
+			<outputDevice type="Enttec Open" param="266"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L84" channelCount="3" firstChannel="269">
+			<outputDevice type="Enttec Open" param="269"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L85" channelCount="3" firstChannel="272">
+			<outputDevice type="Enttec Open" param="272"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L86" channelCount="3" firstChannel="275">
+			<outputDevice type="Enttec Open" param="275"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L87" channelCount="3" firstChannel="278">
+			<outputDevice type="Enttec Open" param="278"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L88" channelCount="3" firstChannel="281">
+			<outputDevice type="Enttec Open" param="281"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L89" channelCount="3" firstChannel="284">
+			<outputDevice type="Enttec Open" param="284"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L90" channelCount="3" firstChannel="287">
+			<outputDevice type="Enttec Open" param="287"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L91" channelCount="3" firstChannel="290">
+			<outputDevice type="Enttec Open" param="290"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L92" channelCount="3" firstChannel="293">
+			<outputDevice type="Enttec Open" param="293"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L93" channelCount="3" firstChannel="296">
+			<outputDevice type="Enttec Open" param="296"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L94" channelCount="3" firstChannel="299">
+			<outputDevice type="Enttec Open" param="299"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L95" channelCount="3" firstChannel="302">
+			<outputDevice type="Enttec Open" param="302"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L96" channelCount="3" firstChannel="305">
+			<outputDevice type="Enttec Open" param="305"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L97" channelCount="3" firstChannel="308">
+			<outputDevice type="Enttec Open" param="308"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L98" channelCount="3" firstChannel="311">
+			<outputDevice type="Enttec Open" param="311"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L99" channelCount="3" firstChannel="314">
+			<outputDevice type="Enttec Open" param="314"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L100" channelCount="3" firstChannel="317">
+			<outputDevice type="Enttec Open" param="317"></outputDevice>
+		</inputDevice>
+	</profile>
+	<profile name="PaxWest">
+		<inputDevice id="L1" channelCount="3" firstChannel="21">
+			<outputDevice type="Enttec Open" param="21"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L2" channelCount="3" firstChannel="24">
+			<outputDevice type="Enttec Open" param="24"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L3" channelCount="3" firstChannel="27">
+			<outputDevice type="Enttec Open" param="27"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L4" channelCount="3" firstChannel="30">
+			<outputDevice type="Enttec Open" param="30"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L5" channelCount="3" firstChannel="33">
+			<outputDevice type="Enttec Open" param="33"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L6" channelCount="3" firstChannel="36">
+			<outputDevice type="Enttec Open" param="36"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L7" channelCount="3" firstChannel="39">
+			<outputDevice type="Enttec Open" param="39"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L8" channelCount="3" firstChannel="42">
+			<outputDevice type="Enttec Open" param="42"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L9" channelCount="3" firstChannel="45">
+			<outputDevice type="Enttec Open" param="45"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L10" channelCount="3" firstChannel="48">
+			<outputDevice type="Enttec Open" param="48"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L11" channelCount="3" firstChannel="51">
+			<outputDevice type="Enttec Open" param="51"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L12" channelCount="3" firstChannel="54">
+			<outputDevice type="Enttec Open" param="54"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L13" channelCount="3" firstChannel="57">
+			<outputDevice type="Enttec Open" param="57"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L14" channelCount="3" firstChannel="60">
+			<outputDevice type="Enttec Open" param="60"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L15" channelCount="3" firstChannel="63">
+			<outputDevice type="Enttec Open" param="63"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L16" channelCount="3" firstChannel="66">
+			<outputDevice type="Enttec Open" param="66"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L17" channelCount="3" firstChannel="69">
+			<outputDevice type="Enttec Open" param="69"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L18" channelCount="3" firstChannel="72">
+			<outputDevice type="Enttec Open" param="72"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L19" channelCount="3" firstChannel="75">
+			<outputDevice type="Enttec Open" param="75"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L20" channelCount="3" firstChannel="78">
+			<outputDevice type="Enttec Open" param="78"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L21" channelCount="3" firstChannel="81">
+			<outputDevice type="Enttec Open" param="81"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L22" channelCount="3" firstChannel="84">
+			<outputDevice type="Enttec Open" param="84"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L23" channelCount="3" firstChannel="87">
+			<outputDevice type="Enttec Open" param="87"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L24" channelCount="3" firstChannel="90">
+			<outputDevice type="Enttec Open" param="90"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L25" channelCount="3" firstChannel="93">
+			<outputDevice type="Enttec Open" param="93"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L26" channelCount="3" firstChannel="96">
+			<outputDevice type="Enttec Open" param="96"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L27" channelCount="3" firstChannel="99">
+			<outputDevice type="Enttec Open" param="99"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L28" channelCount="3" firstChannel="102">
+			<outputDevice type="Enttec Open" param="102"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L29" channelCount="3" firstChannel="105">
+			<outputDevice type="Enttec Open" param="105"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L30" channelCount="3" firstChannel="108">
+			<outputDevice type="Enttec Open" param="108"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L31" channelCount="3" firstChannel="111">
+			<outputDevice type="Enttec Open" param="111"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L32" channelCount="3" firstChannel="114">
+			<outputDevice type="Enttec Open" param="114"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L33" channelCount="3" firstChannel="117">
+			<outputDevice type="Enttec Open" param="117"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L34" channelCount="3" firstChannel="120">
+			<outputDevice type="Enttec Open" param="120"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L35" channelCount="3" firstChannel="123">
+			<outputDevice type="Enttec Open" param="123"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L36" channelCount="3" firstChannel="126">
+			<outputDevice type="Enttec Open" param="126"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L37" channelCount="3" firstChannel="129">
+			<outputDevice type="Enttec Open" param="129"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L38" channelCount="3" firstChannel="132">
+			<outputDevice type="Enttec Open" param="132"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L39" channelCount="3" firstChannel="135">
+			<outputDevice type="Enttec Open" param="135"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L40" channelCount="3" firstChannel="138">
+			<outputDevice type="Enttec Open" param="138"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L41" channelCount="3" firstChannel="141">
+			<outputDevice type="Enttec Open" param="141"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L42" channelCount="3" firstChannel="144">
+			<outputDevice type="Enttec Open" param="144"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L43" channelCount="3" firstChannel="147">
+			<outputDevice type="Enttec Open" param="147"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L44" channelCount="3" firstChannel="150">
+			<outputDevice type="Enttec Open" param="150"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L45" channelCount="3" firstChannel="153">
+			<outputDevice type="Enttec Open" param="153"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L46" channelCount="3" firstChannel="156">
+			<outputDevice type="Enttec Open" param="156"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L47" channelCount="3" firstChannel="159">
+			<outputDevice type="Enttec Open" param="159"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L48" channelCount="3" firstChannel="162">
+			<outputDevice type="Enttec Open" param="162"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L49" channelCount="3" firstChannel="165">
+			<outputDevice type="Enttec Open" param="165"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L50" channelCount="3" firstChannel="168">
+			<outputDevice type="Enttec Open" param="168"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L51" channelCount="3" firstChannel="171">
+			<outputDevice type="Enttec Open" param="171"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L52" channelCount="3" firstChannel="174">
+			<outputDevice type="Enttec Open" param="174"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L53" channelCount="3" firstChannel="177">
+			<outputDevice type="Enttec Open" param="177"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L54" channelCount="3" firstChannel="180">
+			<outputDevice type="Enttec Open" param="180"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L55" channelCount="3" firstChannel="183">
+			<outputDevice type="Enttec Open" param="183"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L56" channelCount="3" firstChannel="186">
+			<outputDevice type="Enttec Open" param="186"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L57" channelCount="3" firstChannel="189">
+			<outputDevice type="Enttec Open" param="189"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L58" channelCount="3" firstChannel="192">
+			<outputDevice type="Enttec Open" param="192"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L59" channelCount="3" firstChannel="195">
+			<outputDevice type="Enttec Open" param="195"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L60" channelCount="3" firstChannel="198">
+			<outputDevice type="Enttec Open" param="198"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L61" channelCount="3" firstChannel="201">
+			<outputDevice type="Enttec Open" param="201"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L62" channelCount="3" firstChannel="204">
+			<outputDevice type="Enttec Open" param="204"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L63" channelCount="3" firstChannel="207">
+			<outputDevice type="Enttec Open" param="207"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L64" channelCount="3" firstChannel="210">
+			<outputDevice type="Enttec Open" param="210"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L65" channelCount="3" firstChannel="213">
+			<outputDevice type="Enttec Open" param="213"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L66" channelCount="3" firstChannel="216">
+			<outputDevice type="Enttec Open" param="216"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L67" channelCount="3" firstChannel="219">
+			<outputDevice type="Enttec Open" param="219"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L68" channelCount="3" firstChannel="222">
+			<outputDevice type="Enttec Open" param="222"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L69" channelCount="3" firstChannel="225">
+			<outputDevice type="Enttec Open" param="225"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L70" channelCount="3" firstChannel="228">
+			<outputDevice type="Enttec Open" param="228"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L71" channelCount="3" firstChannel="231">
+			<outputDevice type="Enttec Open" param="231"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L72" channelCount="3" firstChannel="234">
+			<outputDevice type="Enttec Open" param="234"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L73" channelCount="3" firstChannel="237">
+			<outputDevice type="Enttec Open" param="237"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L74" channelCount="3" firstChannel="240">
+			<outputDevice type="Enttec Open" param="240"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L75" channelCount="3" firstChannel="243">
+			<outputDevice type="Enttec Open" param="243"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L76" channelCount="3" firstChannel="246">
+			<outputDevice type="Enttec Open" param="246"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L77" channelCount="3" firstChannel="249">
+			<outputDevice type="Enttec Open" param="249"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L78" channelCount="3" firstChannel="252">
+			<outputDevice type="Enttec Open" param="252"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L79" channelCount="3" firstChannel="255">
+			<outputDevice type="Enttec Open" param="255"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L80" channelCount="3" firstChannel="258">
+			<outputDevice type="Enttec Open" param="258"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L81" channelCount="3" firstChannel="261">
+			<outputDevice type="Enttec Open" param="261"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L82" channelCount="3" firstChannel="264">
+			<outputDevice type="Enttec Open" param="264"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L83" channelCount="3" firstChannel="267">
+			<outputDevice type="Enttec Open" param="267"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L84" channelCount="3" firstChannel="270">
+			<outputDevice type="Enttec Open" param="270"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L85" channelCount="3" firstChannel="273">
+			<outputDevice type="Enttec Open" param="273"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L86" channelCount="3" firstChannel="276">
+			<outputDevice type="Enttec Open" param="276"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L87" channelCount="3" firstChannel="279">
+			<outputDevice type="Enttec Open" param="279"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L88" channelCount="3" firstChannel="282">
+			<outputDevice type="Enttec Open" param="282"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L89" channelCount="3" firstChannel="285">
+			<outputDevice type="Enttec Open" param="285"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L90" channelCount="3" firstChannel="288">
+			<outputDevice type="Enttec Open" param="288"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L91" channelCount="3" firstChannel="291">
+			<outputDevice type="Enttec Open" param="291"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L92" channelCount="3" firstChannel="294">
+			<outputDevice type="Enttec Open" param="294"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L93" channelCount="3" firstChannel="297">
+			<outputDevice type="Enttec Open" param="297"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L94" channelCount="3" firstChannel="300">
+			<outputDevice type="Enttec Open" param="300"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L95" channelCount="3" firstChannel="303">
+			<outputDevice type="Enttec Open" param="303"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L96" channelCount="3" firstChannel="306">
+			<outputDevice type="Enttec Open" param="306"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L97" channelCount="3" firstChannel="309">
+			<outputDevice type="Enttec Open" param="309"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L98" channelCount="3" firstChannel="312">
+			<outputDevice type="Enttec Open" param="312"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L99" channelCount="3" firstChannel="315">
+			<outputDevice type="Enttec Open" param="315"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L100" channelCount="3" firstChannel="318">
+			<outputDevice type="Enttec Open" param="318"></outputDevice>
+		</inputDevice>
+	</profile>
+	<profile name="Simulated">
+		<inputDevice id="L1" channelCount="3" firstChannel="1">
+			<outputDevice type="Enttec Open" param="1"></outputDevice>
+		</inputDevice>
+	</profile>
+	<profile name="PaxWest20b">
+		<inputDevice id="L1" channelCount="3" firstChannel="20">
+			<outputDevice type="Enttec Open" param="20"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L2" channelCount="3" firstChannel="23">
+			<outputDevice type="Enttec Open" param="23"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L3" channelCount="3" firstChannel="26">
+			<outputDevice type="Enttec Open" param="26"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L4" channelCount="3" firstChannel="29">
+			<outputDevice type="Enttec Open" param="29"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L5" channelCount="3" firstChannel="32">
+			<outputDevice type="Enttec Open" param="32"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L6" channelCount="3" firstChannel="35">
+			<outputDevice type="Enttec Open" param="35"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L7" channelCount="3" firstChannel="38">
+			<outputDevice type="Enttec Open" param="38"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L8" channelCount="3" firstChannel="41">
+			<outputDevice type="Enttec Open" param="41"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L9" channelCount="3" firstChannel="44">
+			<outputDevice type="Enttec Open" param="44"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L10" channelCount="3" firstChannel="47">
+			<outputDevice type="Enttec Open" param="47"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L11" channelCount="3" firstChannel="50">
+			<outputDevice type="Enttec Open" param="50"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L12" channelCount="3" firstChannel="53">
+			<outputDevice type="Enttec Open" param="53"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L13" channelCount="3" firstChannel="56">
+			<outputDevice type="Enttec Open" param="56"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L14" channelCount="3" firstChannel="59">
+			<outputDevice type="Enttec Open" param="59"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L15" channelCount="3" firstChannel="62">
+			<outputDevice type="Enttec Open" param="62"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L16" channelCount="3" firstChannel="65">
+			<outputDevice type="Enttec Open" param="65"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L17" channelCount="3" firstChannel="68">
+			<outputDevice type="Enttec Open" param="68"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L18" channelCount="3" firstChannel="71">
+			<outputDevice type="Enttec Open" param="71"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L19" channelCount="3" firstChannel="74">
+			<outputDevice type="Enttec Open" param="74"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L20" channelCount="3" firstChannel="77">
+			<outputDevice type="Enttec Open" param="77"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L21" channelCount="3" firstChannel="80">
+			<outputDevice type="Enttec Open" param="80"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L22" channelCount="3" firstChannel="83">
+			<outputDevice type="Enttec Open" param="83"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L23" channelCount="3" firstChannel="86">
+			<outputDevice type="Enttec Open" param="86"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L24" channelCount="3" firstChannel="89">
+			<outputDevice type="Enttec Open" param="89"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L25" channelCount="3" firstChannel="92">
+			<outputDevice type="Enttec Open" param="92"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L26" channelCount="3" firstChannel="95">
+			<outputDevice type="Enttec Open" param="95"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L27" channelCount="3" firstChannel="98">
+			<outputDevice type="Enttec Open" param="98"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L28" channelCount="3" firstChannel="101">
+			<outputDevice type="Enttec Open" param="101"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L29" channelCount="3" firstChannel="104">
+			<outputDevice type="Enttec Open" param="104"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L30" channelCount="3" firstChannel="107">
+			<outputDevice type="Enttec Open" param="107"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L31" channelCount="3" firstChannel="110">
+			<outputDevice type="Enttec Open" param="110"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L32" channelCount="3" firstChannel="113">
+			<outputDevice type="Enttec Open" param="113"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L33" channelCount="3" firstChannel="116">
+			<outputDevice type="Enttec Open" param="116"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L34" channelCount="3" firstChannel="119">
+			<outputDevice type="Enttec Open" param="119"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L35" channelCount="3" firstChannel="122">
+			<outputDevice type="Enttec Open" param="122"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L36" channelCount="3" firstChannel="125">
+			<outputDevice type="Enttec Open" param="125"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L37" channelCount="3" firstChannel="128">
+			<outputDevice type="Enttec Open" param="128"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L38" channelCount="3" firstChannel="131">
+			<outputDevice type="Enttec Open" param="131"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L39" channelCount="3" firstChannel="134">
+			<outputDevice type="Enttec Open" param="134"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L40" channelCount="3" firstChannel="137">
+			<outputDevice type="Enttec Open" param="137"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L41" channelCount="3" firstChannel="140">
+			<outputDevice type="Enttec Open" param="140"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L42" channelCount="3" firstChannel="143">
+			<outputDevice type="Enttec Open" param="143"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L43" channelCount="3" firstChannel="146">
+			<outputDevice type="Enttec Open" param="146"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L44" channelCount="3" firstChannel="149">
+			<outputDevice type="Enttec Open" param="149"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L45" channelCount="3" firstChannel="152">
+			<outputDevice type="Enttec Open" param="152"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L46" channelCount="3" firstChannel="155">
+			<outputDevice type="Enttec Open" param="155"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L47" channelCount="3" firstChannel="158">
+			<outputDevice type="Enttec Open" param="158"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L48" channelCount="3" firstChannel="161">
+			<outputDevice type="Enttec Open" param="161"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L49" channelCount="3" firstChannel="164">
+			<outputDevice type="Enttec Open" param="164"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L50" channelCount="3" firstChannel="167">
+			<outputDevice type="Enttec Open" param="167"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L51" channelCount="3" firstChannel="170">
+			<outputDevice type="Enttec Open" param="170"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L52" channelCount="3" firstChannel="173" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="173"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L53" channelCount="3" firstChannel="176" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="176"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L54" channelCount="3" firstChannel="179" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="179"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L55" channelCount="3" firstChannel="182" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="182"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L56" channelCount="3" firstChannel="185" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="185"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L57" channelCount="3" firstChannel="188" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="188"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L58" channelCount="3" firstChannel="191" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="191"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L59" channelCount="3" firstChannel="194" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="194"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L60" channelCount="3" firstChannel="197" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="197"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L61" channelCount="3" firstChannel="200" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="200"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L62" channelCount="3" firstChannel="203" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="203"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L63" channelCount="3" firstChannel="206" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="206"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L64" channelCount="3" firstChannel="209" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="209"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L65" channelCount="3" firstChannel="212" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="212"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L66" channelCount="3" firstChannel="215" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="215"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L67" channelCount="3" firstChannel="218" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="218"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L68" channelCount="3" firstChannel="221" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="221"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L69" channelCount="3" firstChannel="224" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="224"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L70" channelCount="3" firstChannel="227" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="227"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L71" channelCount="3" firstChannel="230" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="230"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L72" channelCount="3" firstChannel="233" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="233"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L73" channelCount="3" firstChannel="236" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="236"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L74" channelCount="3" firstChannel="239" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="239"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L75" channelCount="3" firstChannel="242" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="242"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L76" channelCount="3" firstChannel="245" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="245"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L77" channelCount="3" firstChannel="248" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="248"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L78" channelCount="3" firstChannel="251" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="251"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L79" channelCount="3" firstChannel="254" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="254"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L80" channelCount="3" firstChannel="257" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="257"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L81" channelCount="3" firstChannel="260" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="260"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L82" channelCount="3" firstChannel="263" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="263"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L83" channelCount="3" firstChannel="266" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="266"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L84" channelCount="3" firstChannel="269" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="269"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L85" channelCount="3" firstChannel="272" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="272"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L86" channelCount="3" firstChannel="275" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="275"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L87" channelCount="3" firstChannel="278" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="278"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L88" channelCount="3" firstChannel="281" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="281"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L89" channelCount="3" firstChannel="284" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="284"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L90" channelCount="3" firstChannel="287" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="287"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L91" channelCount="3" firstChannel="290" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="290"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L92" channelCount="3" firstChannel="293" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="293"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L93" channelCount="3" firstChannel="296" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="296"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L94" channelCount="3" firstChannel="299" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="299"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L95" channelCount="3" firstChannel="302" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="302"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L96" channelCount="3" firstChannel="305" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="305"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L97" channelCount="3" firstChannel="308" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="308"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L98" channelCount="3" firstChannel="311" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="311"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L99" channelCount="3" firstChannel="314" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="314"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L100" channelCount="3" firstChannel="317" channelOrder="GBR">
+			<outputDevice type="Enttec Open" param="317"></outputDevice>
+		</inputDevice>
+	</profile>
+</DMX_DEVICES>
