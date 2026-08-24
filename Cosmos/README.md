@@ -2,13 +2,20 @@
 
 Cosmos is configured as follows.
 
-## preferences-harbinger.json
+## preferences.json
 
-This is the stock Cosmos 1.3.0 file with the following changes:
+You can use the stock Cosmos 1.3.0 file which will advertise the default server name of "Cosmos Server" to clients.
+The name is stored in the "server-network-name" property.
 
-* server-network-name is "Harbinger Server" instead of "Cosmos Server".  This is what the server advertises for clients to see.
+preferences-harbinger.txt is the stock Cosmos 1.3.0 file with the following changes:
 
-When using this file, it should be renamed to preferences.json and placed in your Cosmos-1.3.0\data directory.
+* server-network-name is "Harbinger Server"
+
+preferences-intrepid.txt is the stock Cosmos 1.3.0 file with the following changes:
+
+* server-network-name is "Intrepid Server"
+
+To use either file, it should be copied to your Cosmos-1.3.0\data directory and renamed preferences.json.
 
 ## Engineering-Presets.txt
 
