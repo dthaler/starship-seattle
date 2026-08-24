@@ -12,7 +12,7 @@
 
   // these are network values
   "serverNetworkPort": 2023,
-  "server-network-name": "Harbinger Server",
+  "server-network-name": "Cosmos Server",
 
   // these values control the internal rendering buffers for the 3d and 2d views
   "main-buff-width": 1920,
@@ -36,21 +36,30 @@
   "render-distance-beams": 4000,
   "render-distance-effects": 4000,
   "render-distance-objects": 5000,
-  "render-distance-large-objects": 10000,
+  "render-distance-nebulae": 15000,
+  "render-distance-asteroids": 35000,
+  "render-distance-large-objects": 50000,
 
   // this value defines the color of the whole GUI
   // it's a string, that follows the color format of CSS3.
   "gui-color-main": "#ccf",
   "gui-color-red-alert": "#600",
 
+  // these values override the diplomatic relationship colors for this type of object
+  // you can comment our these values out, if you want the diplomatic relationship colors 
+  //to determine the colors of these objects.
+  "gui-color-ally-ship": "#0ff",
+  "gui-color-ally-station": "#15f",
   "gui-color-your-ship": "#0f0",
   "gui-color-player-ship": "#080",
-  "gui-color-friendly-ship": "#0ff",
+
+  // these values are ignored now, because the diplomatic relationship colors are determined by the script
+  "gui-color-hostile-ship": "#f00",
+  "gui-color-hostile-station": "#f00",
+
+
   "gui-color-unscanned-object": "#888",
-  "gui-color-surrendered-ship": "#f80",
-  "gui-color-not-friendly-ship": "#f00",
-  "gui-color-friendly-station": "#ff0",
-  "gui-color-not-friendly-station": "#f00",
+  "gui-color-surrendered-ship": "#ff0",
   "gui-color-torpedo": "#8f0",
   "gui-color-drone": "#f48",
   "gui-color-mine": "#f08",
@@ -61,7 +70,7 @@
   "gui-color-nebula": "#22f",
   "gui-color-planet": "#fff",
   "gui-color-pickup": "#fff",
-  "gui-color-unscanned": "#999",
+  //  "gui-color-unscanned": "#999",  unused
 
   "gui-color-deep-background": "#002",
   "gui-color-deep-background-image": "deep_back_tiled_image3",
@@ -72,6 +81,7 @@
   "gui-radar-side-colors-from-selected-ship": "no", //"yes",
 
   "comms-control-button-height": 40,
+  "object-sorted-list-button-h": 30, // for the contact list in sci and comms; size of each button
 
   // nebulas carry their own 2d display color
 
@@ -81,7 +91,7 @@
 
   "shield_splash_brightness_coeff": 0.3,
 
-  //  "default_mission_folder": "basicsiegemast",
+//  "default_mission_folder": "LegendaryMissions",
 
   "lock-reticle-size-2D": 60,
   "lock-reticle-size-3D": 60,
@@ -123,9 +133,9 @@
   "obscure_ip_typein_box_flag": 0,
 
   "server-network-mess-per-frame": 5500,
-  "client-network-mess-per-frame": 5510,
+  "client-network-mess-per-frame": 15510,
 
-  "player-vision-base-distance": 10000,
+  "player-vision-base-distance": 50000,
   "player-vision-science-coeff": 3,
 
   "clientContactDecayDelay": 240,
@@ -135,7 +145,8 @@
 
   // this is a zoom cutoff for the 2d radar; beyond this zoomout level, asteroids and nebulas do not
   // draw on the 2d radar. if you want to see these things at a wider zoom, make this number smaller.
-  "terrainDrawScaleLimit": 0.009, //0.019,
+  //  "terrainDrawScaleLimit": 0.009, //0.019,
+  "terrainDrawScaleLimit": 0.000009, //0.019,
 
   "expose_debug_options": 0,
   "suppress_no_client_big_dialog": 0,
@@ -181,7 +192,6 @@
   "shield_damage_4": "shield-hit4",
   "shield_damage_5": "shield-hit5",
   "shield_damage_6": "shield-hit6",
-
 
   "gui-sounds": [
     {
