@@ -34,3 +34,12 @@ This has the following presets:
 
 Engineering-Presets.txt.backup also exists as a duplicate file just because it is used by the Reset script
 in the Desktop directory.
+
+## settings.yaml
+
+Cosmos-1.3.0\data\missions\LegendaryMissions\settings.yaml contains settings specific to the Legendary Missions
+(including Siege).  Some docs on the settings are in:
+
+* https://artemis-sbs.github.io/LegendaryMissions/hosting/settings.yaml/
+* https://github.com/artemis-sbs/LegendaryMissions/blob/b36151b483b9ef5aa66d85118f7424bda2fe4985/mkdocs/docs/hosting/settings.yaml.md
+
