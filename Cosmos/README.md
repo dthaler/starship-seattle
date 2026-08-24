@@ -31,3 +31,6 @@ This has the following presets:
 * 8: Shield priority
 * 9: Emergency warp
 * 0: Max Beams
+
+Engineering-Presets.txt.backup also exists as a duplicate file just because it is used by the Reset script
+in the Desktop directory.
