@@ -12,7 +12,7 @@
 
   // these are network values
   "serverNetworkPort": 2023,
-  "server-network-name": "Cosmos Server",
+  "server-network-name": "Harbinger Server",
 
   // these values control the internal rendering buffers for the 3d and 2d views
   "main-buff-width": 1920,
