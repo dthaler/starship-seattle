@@ -2,11 +2,13 @@
 
 Cosmos is configured as follows.
 
-## preferences.json
+## preferences-harbinger.json
 
 This is the stock Cosmos 1.3.0 file with the following changes:
 
 * server-network-name is "Harbinger Server" instead of "Cosmos Server"
+
+When using this file, it should be renamed to preferences.json and placed in your Cosmos-1.3.0\data directory.
 
 ## Engineering-Presets.txt
 
