@@ -7,4 +7,5 @@ This repository is organized as follows:
 * [JoyToKey directory](https://github.com/dthaler/starship-seattle/tree/main/JoyToKey): contains JoyToKey configuration files
 * [Cosmos directory](https://github.com/dthaler/starship-seattle/tree/main/Cosmos): contains actual Cosmos configuration files
 * [ThalerDmx directory](https://github.com/dthaler/starship-seattle/tree/main/ThalerDmx): contains DMX configuration specific to Dave Thaler's DMX equipment
-* [Desktop directory](https://github.com/dthaler/starship-seattle/tree/main/Desktop): contains other scripts useful to have on the desktop
+* [RedButton directory](https://github.com/dthaler/starship-seattle/tree/main/RedButton): contains files to support the Big Red Button for Red Alert
+* [Desktop directory](https://github.com/dthaler/starship-seattle/tree/main/Desktop): contains other files useful to have on the desktop

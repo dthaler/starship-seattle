@@ -60,7 +60,7 @@ GAMEMASTER:
     menu_icon_size: 45 # Pixels
 ### Uncomment the pin if you want the 
 ###Gamemaster to require a pin
-    pin: "000000"
+    pin: "202526"
 #
 # These are the settings 
 # for standard docking
@@ -108,7 +108,7 @@ PLAYER_SHIP_RESPAWN: true
 PLAYER_LIST: 
     -   name: "Harbinger"
         side: "tsn"
-        ship: "tsn_light_cruiser"
+        ship: "tsn_battle_cruiser"
         face: "terran"
 
     -   name: "Intrepid"

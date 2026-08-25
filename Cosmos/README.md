@@ -50,9 +50,10 @@ Cosmos-1.3.0\data\missions\LegendaryMissions\settings.yaml contains settings spe
 
 The settings.yaml file starts with the stock Cosmos 1.3.0 file and has the following changes:
 
-* Sets the GameMaster pin to 000000
+* Sets the GameMaster pin to 202526
 * Sets player ship respawn to true
 * Changes ship names to be Harbinger, Intrepid, and Artemis (in that order)
+* Changes the first ship type to be Battle Cruiser, so all player ships are the same type
 * Prevent changing the console mid-game
 * Prevent changing the ship name or type
 
