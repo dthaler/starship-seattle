@@ -2,6 +2,18 @@
 # Auto start will automatically start the mission when it is selected
 AUTO_START: false
 
+# Come back on this screen with the settings the LAST game started with, instead of the
+# ones below. Remembered per mission and per map, and it carries the crew's ship names and
+# hulls too. Saved when a game STARTS, so a crash or a quit still leaves it recorded.
+#
+# Commented out deliberately, and that IS the setting: the library default is false, and a
+# key present here is explicit, so uncommenting "false" would stop a mod built on
+# LegendaryMissions from ever turning it on. Uncomment to pin it either way.
+#
+# Off suits a venue or convention machine - every group starts from the same known state.
+# On suits a crew replaying the same setup after an early death.
+#RESTORE_LAST_SETUP: false
+
 # Auto play is a special mode
 # Typically used for testing
 # But could be useful with
@@ -27,8 +39,10 @@ OPERATOR_MODE:
 #
 # Additional Lock down settings
 #
-SHIP_PICK_READ_ONLY: false
-CAN_CHANGE_CONSOLE: true
+# Prevent changing the ship name and type
+SHIP_PICK_READ_ONLY: true
+# Disallow changing a console in mid-mission
+CAN_CHANGE_CONSOLE: false
 
 ### Very rough prototype of a comms interaction change 
 # COMMS_PROTOTYPE: true
@@ -46,7 +60,7 @@ GAMEMASTER:
     menu_icon_size: 45 # Pixels
 ### Uncomment the pin if you want the 
 ###Gamemaster to require a pin
-    #pin: "000000"
+    pin: "000000"
 #
 # These are the settings 
 # for standard docking
@@ -59,6 +73,10 @@ DOCKING:
     torps_delay: 6
     interior_delay: 2
     interior_count: 2
+    # Gas giant orbit. Not a refit - shields only, and slowly.
+    giant_shield_delay: 6
+    giant_shield_coeff: 0.5
+    giant_orbit_speed: 120
 
 # Color theme for engineering
 # see grid_theme.json
@@ -70,18 +88,25 @@ WORLD_SELECT: "siege"
 
 TERRAIN_SELECT: "some"
 LETHAL_SELECT: "none"
-FRIENDLY_SELECT: "few"
-MONSTER_SELECT: "few"
+FRIENDLY_SELECT: "lots"
+MONSTER_SELECT: "none"
 UPGRADE_SELECT: "lots"
-GAME_TIME_LIMIT: 0
+
+# Music bank. Deliberately COMMENTED OUT, and that is the setting: a key present here is
+# explicit, so it outranks any mod's `settings_set_mod_default` - uncommenting this stops
+# every mod built on LegendaryMissions from ever supplying its own soundtrack. The library
+# default is "random", which picks from whatever @media/music labels are loaded. Uncomment
+# only to pin one deliberately; the operator can still change it on the server console.
+#MUSIC_SELECT: "random"
+GAME_TIME_LIMIT: 25
 WAR_TIME_DELAY: 10
 
 # Player related settings
 PLAYER_CREATE_DEFAULT: true
 PLAYER_COUNT: 1
-PLAYER_SHIP_RESPAWN: false
+PLAYER_SHIP_RESPAWN: true
 PLAYER_LIST: 
-    -   name: "Artemis"
+    -   name: "Harbinger"
         side: "tsn"
         ship: "tsn_light_cruiser"
         face: "terran"
@@ -91,7 +116,7 @@ PLAYER_LIST:
         ship: "tsn_battle_cruiser"
         face: "terran"
 
-    -   name: "Aegis"
+    -   name: "Artemis"
         side: "tsn"
         ship: "tsn_battle_cruiser"
         face: "terran"
@@ -121,4 +146,8 @@ PLAYER_LIST:
         ship: "tsn_battle_cruiser"
         face: "terran"
 
-
+# Dev/attract only: job-board keys to ACCEPT automatically at map setup.
+# A job normally goes active only when a human presses Accept on the quest tab, so a
+# headless --test run can never reach a job's spawn case or its watcher. Listing keys
+# here (e.g. [job_picket]) makes the board testable without a crew. Leave empty to ship.
+AUTO_ACCEPT_JOBS: []

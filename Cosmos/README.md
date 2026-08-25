@@ -48,3 +48,16 @@ Cosmos-1.3.0\data\missions\LegendaryMissions\settings.yaml contains settings spe
 * https://artemis-sbs.github.io/LegendaryMissions/hosting/settings.yaml/
 * https://github.com/artemis-sbs/LegendaryMissions/blob/main/mkdocs/docs/hosting/settings.yaml.md
 
+The settings.yaml file starts with the stock Cosmos 1.3.0 file and has the following changes:
+
+* Sets the GameMaster pin to 000000
+* Sets player ship respawn to true
+* Changes ship names to be Harbinger, Intrepid, and Artemis (in that order)
+* Prevent changing the console mid-game
+* Prevent changing the ship name or type
+
+It also sets the following defaults, which may be overridden by profiles:
+
+* Sets friendly ships to Lots
+* Sets monsters to None (to avoid Typhons)
+* Sets the default game time limit to 25 minutes
