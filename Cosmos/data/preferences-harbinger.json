@@ -91,7 +91,7 @@
 
   "shield_splash_brightness_coeff": 0.3,
 
-//  "default_mission_folder": "LegendaryMissions",
+  "default_mission_folder": "LegendaryMissions",
 
   "lock-reticle-size-2D": 60,
   "lock-reticle-size-3D": 60,
