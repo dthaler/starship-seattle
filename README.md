@@ -17,4 +17,4 @@ The correct order to install Cosmos files is:
 3. Download and install the [Unofficial Patch v1.12](https://artemis.forumchitchat.com/post/show_single_post?pid=1344702595&postcount=1&forum=309501).  The "Unofficial Patch" does not affect the EXE, only other files.
 4. From the data\missions directory within the Cosmos install, do `sbs update` then `sbs production -b v1.4.0_dev`.  The latter will reset the missions folder.  Since both modify some of the same files, it is important to do this one last.
 5. For a machine with DMX, install the latest [Cosmos Bridge Tools](https://www.armidalesoftware.com/Artemis/CosmosBridgeTools.htm#Download). (This just has to be done any time after step 1 above.)
-6. Install the configuration files in the [Cosmos directory](https://github.com/dthaler/starship-seattle/tree/main/Cosmos) of this repository. (This has to be done any time after step 4 above.)
+6. Install the configuration files in the [Cosmos directory](https://github.com/dthaler/starship-seattle/tree/main/Cosmos) of this repository. (This has to be done after step 4 above since the settings.yaml in this repository overwrites the stock LegendaryMissions one.)
