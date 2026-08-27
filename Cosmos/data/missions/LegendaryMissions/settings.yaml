@@ -86,10 +86,49 @@ DIFFICULTY: 5
 
 WORLD_SELECT: "siege"
 
+# Which races a player ship may BE. This is what helm's ship picker offers, and it is also
+# what decides which floor plans get parsed at load - an interior is only ever built for a
+# player ship, so a race nobody can fly is dead weight.
+#
+# TSN and Ximni are the two flyable warship factions. Left unset, this inherited the
+# library default, which lists all NINE races that have interiors "so behavior is unchanged
+# out of the box" - and helm could put a crew in a Kralien dreadnought, an Arvonian carrier
+# or a luxury liner (the USFP block is civilians and starbases, not TSN warships).
+#
+# NAMING THIS DOES NOT SHUT MODS OUT. It does close the `settings_set_mod_default` tier,
+# which is refused once a mission names a key - correctly, since that tier means "the
+# library shipped a value and nobody overrode it". A mod that ADDS a race calls
+# `settings_add_playable_races(...)` instead, which widens the list whatever tier set it:
+# listing TSN and Ximni says nothing about the Federation. The TNG pack does exactly this,
+# so a Trek hull is still offered on top of these two.
+PLAYABLE_RACES: "TSN, Ximni"
+
 TERRAIN_SELECT: "some"
 LETHAL_SELECT: "none"
 FRIENDLY_SELECT: "lots"
 MONSTER_SELECT: "none"
+# Non-Typhon creatures - Piranha, Shark, Dragon, Charybdis and Insect, the five that ride
+# a real ship hull instead of the classic Typhon geometry. false = they never spawn, from
+# any source: no wreck nests, and the GM bestiary menu stops offering them. The eight
+# Typhon-style species (Typhon, Reaver, Grazer, Ravener, Bulwark, Sparkfeeder, Siphon
+# Leech, Warden) are unaffected, and MONSTER_SELECT still sets how many a map seeds.
+#
+# OPT-IN AS OF 2026-08-25, pending a real fix. Set false here, and matched in
+# prefabs/__init__.mast and consoles/server_console.mast so all three agree.
+#
+# WHY: a render-side BREAKPOINT (0x80000003 - an assertion, not an access violation) in
+#   RenderManager::GetDrawData -> ObjectTypeDrawData -> MeshSilhouette -> Ribbon3DManager
+# killed a server eight minutes into a siege. The only monster art root anywhere in that
+# dump's memory was `ships/monster2` - the Piranha - beside `behav_monster` and the
+# monster body-bend/wiggle blob documentation strings. monster2 is also the only monster
+# with a .paxmesh and split _body/_jaw geometry, and its body is procedurally deformed
+# while turning, so it exercises a silhouette path the single-mesh species never touch.
+#
+# This is BROADER than the suspect - there is no per-species switch today, and a
+# Piranha-only one would need a new MONSTER_PIRANHA guarded in prefabs/piranha.mast and
+# damage/destroy.mast. Turning the whole family off is the conservative move until the
+# mesh is understood: a host who wants them back sets this true.
+MONSTER_NON_TYPHON: false
 UPGRADE_SELECT: "lots"
 
 # Music bank. Deliberately COMMENTED OUT, and that is the setting: a key present here is
