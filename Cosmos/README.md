@@ -2,6 +2,10 @@
 
 Cosmos is configured as follows.
 
+## hot_key_settings.txt
+
+This is the keybind fixes from Quaris's [Unofficial Patch v1.12](https://artemis.forumchitchat.com/post/show_single_post?pid=1344702595&postcount=1&forum=309501).
+
 ## preferences.json
 
 You can use the stock Cosmos 1.3.0 file which will advertise the default server name of "Cosmos Server" to clients.
