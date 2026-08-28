@@ -50,15 +50,25 @@ Cosmos-1.3.0\data\missions\LegendaryMissions\settings.yaml contains settings spe
 
 The settings.yaml file starts with the stock Cosmos 1.3.0 file and has the following changes:
 
+* Prevent changing the console mid-game
 * Sets the GameMaster pin to 202526
 * Sets player ship respawn to true
-* Changes ship names to be Harbinger, Intrepid, and Artemis (in that order)
-* Changes the first ship type to be Battle Cruiser, so all player ships are the same type
-* Prevent changing the console mid-game
-* Prevent changing the ship name or type
 
-It also sets the following defaults, which may be overridden by profiles:
+It also sets the following defaults, which can be changed in the server UI:
 
-* Sets friendly ships to Lots
-* Sets monsters to None (to avoid Typhons)
 * Sets the default game time limit to 25 minutes
+
+## game_code_presets.yaml
+
+Cosmos-1.3.0\data\missions\LegendaryMissions\game_code_presets.yaml contains settings profiles for the Siege mission,
+which can override the settings in settings.yaml.
+
+It also sets the following settings, where the column is the profile:
+
+|                   | Harbinger      | Harbinger-Intrepid | Harbinger-Intrepid-Artemis | Notes |
+|-------------------|----------------|--------------------|----------------------------|-------|
+|SHIP_LOADOUT       | Harbinger      | Harbinger,Intrepid | Harbinger,Intrepid,Artemis | Set player ship names |
+|SHIP_LOADOUT       | battle cruiser | battle cruisers    | battle cruisers            | Set player ship types |
+|PLAYER_COUNT       | 1              | 2                  | 3                          | Set number of player ships |
+|SHIP_PICK_READ_ONLY| true           | true               | true                       | Prevent changing ship name or type |
+|FRIENDLY_SELECT    | few            | some               | lots                       | Set friendies |
