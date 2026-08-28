@@ -39,8 +39,8 @@ OPERATOR_MODE:
 #
 # Additional Lock down settings
 #
-# Prevent changing the ship name and type
-SHIP_PICK_READ_ONLY: true
+# If true, prevent changing the ship name and type
+SHIP_PICK_READ_ONLY: false
 # Disallow changing a console in mid-mission
 CAN_CHANGE_CONSOLE: false
 
@@ -105,8 +105,8 @@ PLAYABLE_RACES: "TSN, Ximni"
 
 TERRAIN_SELECT: "some"
 LETHAL_SELECT: "none"
-FRIENDLY_SELECT: "lots"
-MONSTER_SELECT: "none"
+FRIENDLY_SELECT: "few"
+MONSTER_SELECT: "few"
 # Non-Typhon creatures - Piranha, Shark, Dragon, Charybdis and Insect, the five that ride
 # a real ship hull instead of the classic Typhon geometry. false = they never spawn, from
 # any source: no wreck nests, and the GM bestiary menu stops offering them. The eight
@@ -145,9 +145,9 @@ PLAYER_CREATE_DEFAULT: true
 PLAYER_COUNT: 1
 PLAYER_SHIP_RESPAWN: true
 PLAYER_LIST: 
-    -   name: "Harbinger"
+    -   name: "Artemis"
         side: "tsn"
-        ship: "tsn_battle_cruiser"
+        ship: "tsn_light_cruiser"
         face: "terran"
 
     -   name: "Intrepid"
@@ -155,7 +155,7 @@ PLAYER_LIST:
         ship: "tsn_battle_cruiser"
         face: "terran"
 
-    -   name: "Artemis"
+    -   name: "Aegis"
         side: "tsn"
         ship: "tsn_battle_cruiser"
         face: "terran"
