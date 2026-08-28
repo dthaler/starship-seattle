@@ -71,4 +71,4 @@ It also sets the following settings, where the column is the profile:
 |SHIP_LOADOUT       | battle cruiser | battle cruisers    | battle cruisers            | Set player ship types |
 |PLAYER_COUNT       | 1              | 2                  | 3                          | Set number of player ships |
 |SHIP_PICK_READ_ONLY| true           | true               | true                       | Prevent changing ship name or type |
-|FRIENDLY_SELECT    | few            | some               | lots                       | Set friendies |
+|FRIENDLY_SELECT    | few            | some               | lots                       | Set friendlies |
