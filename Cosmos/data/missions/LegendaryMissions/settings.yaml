@@ -145,9 +145,9 @@ PLAYER_CREATE_DEFAULT: true
 PLAYER_COUNT: 1
 PLAYER_SHIP_RESPAWN: true
 PLAYER_LIST: 
-    -   name: "Artemis"
+    -   name: "Harbinger"
         side: "tsn"
-        ship: "tsn_light_cruiser"
+        ship: "tsn_battle_cruiser"
         face: "terran"
 
     -   name: "Intrepid"
@@ -155,7 +155,7 @@ PLAYER_LIST:
         ship: "tsn_battle_cruiser"
         face: "terran"
 
-    -   name: "Aegis"
+    -   name: "Artemis"
         side: "tsn"
         ship: "tsn_battle_cruiser"
         face: "terran"
