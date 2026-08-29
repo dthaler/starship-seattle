@@ -13,9 +13,10 @@ This repository is organized as follows:
 The correct order to install Cosmos files is:
 
 1. Download Cosmos-1.3.0-Installer.exe from itch.io and install it
-2. For a machine with DMX, install the latest [Cosmos Bridge Tools](https://www.armidalesoftware.com/Artemis/CosmosBridgeTools.htm#Download). (This should be done after step 1 since it updates the stock dmx.py.)
-3. Download and install the [1.3.5-ish executable](https://drive.google.com/file/d/1GAlTMeZvlHjp9EZe0FIZL03RoQSqH3Cx/view?usp=drive_link)
-4. Download and install the [Unofficial Patch v1.12](https://artemis.forumchitchat.com/post/show_single_post?pid=1344702595&postcount=1&forum=309501).  The "Unofficial Patch" does not affect the EXE, only other files.
-5. From the `data\missions` directory within the Cosmos install, do `sbs update` then `sbs production -b v1.4.0_dev`.  The latter will reset the missions folder.  Since both modify some of the same files, it is important to do this one last.
-6. Copy the `data\missions\LegendaryMissions` folder to a new `data\missions\LegendaryMissionsUnlocked` folder.
-7. Install the configuration files in the [Cosmos directory](https://github.com/dthaler/starship-seattle/tree/main/Cosmos) of this repository. (This has to be done last since some configuration files in this repository overwrites the stock ones.)
+2. Download and install the [1.3.5-ish executable](https://drive.google.com/file/d/1GAlTMeZvlHjp9EZe0FIZL03RoQSqH3Cx/view?usp=drive_link)
+3. For a machine with DMX, install the latest [Cosmos Bridge Tools](https://www.armidalesoftware.com/Artemis/CosmosBridgeTools.htm#Download). (This should be done after step 1 since it updates the stock dmx.py.)
+4. From the `data\missions` directory within the Cosmos install, do `sbs update` then `sbs production -b v1.4.0_dev`.  The latter will reset the missions folder.
+5. Copy the `data\missions\LegendaryMissions` folder to a new `data\missions\LegendaryMissionsUnlocked` folder.
+6. Install the configuration files in the [Cosmos directory](https://github.com/dthaler/starship-seattle/tree/main/Cosmos) of this repository. (This has to be done last since some configuration files in this repository overwrites the stock ones.)
+
+Only steps 1-2 are needed on clients.  All steps are needed on the server.
