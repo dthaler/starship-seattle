@@ -1,0 +1,8 @@
+---
+siege:
+  - name: Pax1ship
+    code: siege;PLAYER_COUNT=1;DIFFICULTY=5;MAP_SIZE=Medium;TERRAIN_SELECT=some;LETHAL_SELECT=none;FRIENDLY_SELECT=few;MONSTER_SELECT=few;UPGRADE_SELECT=lots;SIEGE_TIMEOUT=Win;BOSS_SELECT=None;seed_value=0;SHIP_LOADOUT=Artemis~tsn_light_cruiser|Intrepid~tsn_battle_cruiser|Aegis~tsn_battle_cruiser|Horatio~tsn_battle_cruiser|Excalibur~tsn_battle_cruiser|Hera~tsn_battle_cruiser|Ceres~tsn_battle_cruiser|Diana~tsn_battle_cruiser;SHIP_PICK_READ_ONLY=true
+  - name: Pax2ships
+    code: siege;PLAYER_COUNT=2;DIFFICULTY=5;MAP_SIZE=Medium;TERRAIN_SELECT=some;LETHAL_SELECT=none;FRIENDLY_SELECT=some;MONSTER_SELECT=few;UPGRADE_SELECT=lots;SIEGE_TIMEOUT=Win;BOSS_SELECT=None;seed_value=0;SHIP_LOADOUT=Artemis~tsn_light_cruiser|Intrepid~tsn_battle_cruiser|Aegis~tsn_battle_cruiser|Horatio~tsn_battle_cruiser|Excalibur~tsn_battle_cruiser|Hera~tsn_battle_cruiser|Ceres~tsn_battle_cruiser|Diana~tsn_battle_cruiser;SHIP_PICK_READ_ONLY=true
+  - name: Pax3ships
+    code: siege;PLAYER_COUNT=3;DIFFICULTY=5;MAP_SIZE=Medium;TERRAIN_SELECT=some;LETHAL_SELECT=none;FRIENDLY_SELECT=lots;MONSTER_SELECT=few;UPGRADE_SELECT=lots;SIEGE_TIMEOUT=Win;BOSS_SELECT=None;seed_value=0;SHIP_LOADOUT=Artemis~tsn_light_cruiser|Intrepid~tsn_battle_cruiser|Aegis~tsn_battle_cruiser|Horatio~tsn_battle_cruiser|Excalibur~tsn_battle_cruiser|Hera~tsn_battle_cruiser|Ceres~tsn_battle_cruiser|Diana~tsn_battle_cruiser;SHIP_PICK_READ_ONLY=true
