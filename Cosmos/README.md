@@ -44,7 +44,7 @@ This has the following presets:
 Engineering-Presets.txt.backup also exists as a duplicate file just because it is used by the Reset script
 in the Desktop directory.
 
-## settings.yaml
+## LegendaryMissions\settings.yaml
 
 Cosmos-1.3.0\data\missions\LegendaryMissions\settings.yaml contains settings specific to the Legendary Missions
 (including Siege).  Some docs on the settings are in:
@@ -59,10 +59,15 @@ The settings.yaml file starts with the stock Cosmos 1.3.0 file and has the follo
 * Prevent changing the console mid-game
 * Sets the GameMaster pin to 202526
 * Sets player ship respawn to true
+* Prevent changing ship names and types
 
 It also sets the following defaults, which can be changed in the server UI:
 
 * Sets the default game time limit to 25 minutes
+
+## LegendaryMissionsUnlocked\settings.yaml
+
+Same as `LegendaryMissions\settings.yaml` except that changing ship names and types is NOT prevented.
 
 ## game_codes\LegendaryMissions.yaml
 
@@ -74,5 +79,4 @@ It also sets the following settings, where the column is the profile:
 |                   | Harbinger      | Harbinger-Intrepid | Harbinger-Intrepid-Artemis | Notes |
 |-------------------|----------------|--------------------|----------------------------|-------|
 |PLAYER_COUNT       | 1              | 2                  | 3                          | Set number of player ships |
-|SHIP_PICK_READ_ONLY| true           | true               | true                       | Prevent changing ship name or type |
 |FRIENDLY_SELECT    | few            | some               | lots                       | Set friendlies |
