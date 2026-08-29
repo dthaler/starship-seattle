@@ -1,8 +1,8 @@
 echo Updating Starship Seattle files...
 
 rem Determine profile name (default = harbinger)
-set PROFILE=%1
-if "%PROFILE%"=="" set PROFILE=harbinger
+set "PROFILE=%~1"
+if "%PROFILE%"=="" set "PROFILE=harbinger"
 
 rem Update missions to latest dev release
 cd data\missions
