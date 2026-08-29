@@ -1,0 +1,387 @@
+// preferences file for Artemis Cosmos (Artemis 3), a multiplayer space game
+//
+// the raw format of this file is HJSON, which is a more human-usable variant of JSON.
+//
+// this is a comment line
+//
+// a valid line begins with a single word, a json key
+
+{
+  //------------------------------------------------------------------
+  "credits-text": "Designed and programmed by^^Thom Robertson",
+
+  // these are network values
+  "serverNetworkPort": 2023,
+  "server-network-name": "Artemis Server",
+
+  // these values control the internal rendering buffers for the 3d and 2d views
+  "main-buff-width": 1920,
+  "main-buff-height": 1080,
+  "nebula-buff-size-div": 4,
+
+  // this integer value is the delay between tick messages handled by the python script
+  // the process runs at 30FPS, so a value of 30 means one second of delay.  In other words,
+  // 30 means that the script tick message will happen once per second.
+  // 15 means that the script tick message will happen twice per second.
+  // 90 means that the script tick message will every 3 seconds.
+  // lower numbers will, of course, challenge the CPU and the network.
+  "scriptTickDelay": 5,
+
+  // this is a scaling coeff for every 3d object in the game
+  "space-object-size-coeff": 1.0,
+  // this is a scaling coeff for the 3d ship widget
+  "ship-in-box-size-coeff": 1.0,
+
+  // these values define the limits of the 3D view
+  "render-distance-beams": 4000,
+  "render-distance-effects": 4000,
+  "render-distance-objects": 5000,
+  "render-distance-nebulae": 15000,
+  "render-distance-asteroids": 35000,
+  "render-distance-large-objects": 50000,
+
+  // this value defines the color of the whole GUI
+  // it's a string, that follows the color format of CSS3.
+  "gui-color-main": "#ccf",
+  "gui-color-red-alert": "#600",
+
+  // these values override the diplomatic relationship colors for this type of object
+  // you can comment our these values out, if you want the diplomatic relationship colors 
+  //to determine the colors of these objects.
+  "gui-color-ally-ship": "#0ff",
+  "gui-color-ally-station": "#15f",
+  "gui-color-your-ship": "#0f0",
+  "gui-color-player-ship": "#080",
+
+  // these values are ignored now, because the diplomatic relationship colors are determined by the script
+  "gui-color-hostile-ship": "#f00",
+  "gui-color-hostile-station": "#f00",
+
+
+  "gui-color-unscanned-object": "#888",
+  "gui-color-surrendered-ship": "#ff0",
+  "gui-color-torpedo": "#8f0",
+  "gui-color-drone": "#f48",
+  "gui-color-mine": "#f08",
+  "gui-color-buoy": "#0f4",
+  "gui-color-waypoint": "#aaa",
+  "gui-color-asteroid": "#6f6546",
+  "gui-color-monster": "#f0f",
+  "gui-color-nebula": "#22f",
+  "gui-color-planet": "#fff",
+  "gui-color-pickup": "#fff",
+  //  "gui-color-unscanned": "#999",  unused
+
+  "gui-color-deep-background": "#002",
+  "gui-color-deep-background-image": "deep_back_tiled_image3",
+
+  "gui-color-dragbar-knob": "#eef",
+  "gui-color-dragbar-knob-text": "#88f",
+
+  "gui-radar-side-colors-from-selected-ship": "no", //"yes",
+
+  "comms-control-button-height": 40,
+  "object-sorted-list-button-h": 30, // for the contact list in sci and comms; size of each button
+
+  // nebulas carry their own 2d display color
+
+  "gui-color-weapon-reticle": "#f30",
+  "gui-color-science-reticle": "#0f0",
+  "gui-color-comms-reticle": "#03f",
+
+  "shield_splash_brightness_coeff": 0.3,
+
+  "default_mission_folder": "LegendaryMissions",
+
+  "lock-reticle-size-2D": 60,
+  "lock-reticle-size-3D": 60,
+
+  "player-fuel-use-coeff": 0.12, // this is multiplied by the ship's speed
+  "player-base-energy-use-coeff": 0.007, // This is multipled by the power use by all the engineering sliders
+  "player-no_energy-speed-coeff": 0.1, // this is how much the ship is slowed, overall, when it has no energy
+  "player-shields-raised-energy-coeff": 2.0,
+  "energyCostOfOneBeamShot": 1.0,
+
+  "ship_apu_assistance_per_tick": 0.1,
+  "ship_apu_assistance_ceiling": 200,
+
+  //"energy_to_torp_cost": 150.0,   deprecated
+  //"torp_to_energy_cost": 100.0,   deprecated
+
+  "torpedo_homing_damage": 35,
+  "torpedo_nuke_damage": 8,
+  "torpedo_emp_shield_damage_coeff": 0.5,
+  "torpedo_nuke_damage_radius": 1000,
+  "torpedo_emp_damage_radius": 1000,
+  "mine_trigger_radius": 500,
+
+  "closest_scan_delay": 0.3,
+  "farthest_scan_delay": 20.0,
+
+  "player_heat_up_coeff": 0.0004,
+  "player_coolant_coeff": 0.00009,
+
+  "coolant_dot_active_color": "#0f0",
+  "coolant_dot_reserve_color": "#042",
+
+  "internal_color_ship_sillouette": "#444",
+  "internal_color_ship_lines": "#ccc",
+  "internal_color_ship_nodes": "#fff",
+
+  "station-dock-drag-speed": 3.0,
+
+  "obscure_ip_typein_box_flag": 0,
+
+  "server-network-mess-per-frame": 5500,
+  "client-network-mess-per-frame": 15510,
+
+  "player-vision-base-distance": 50000,
+  "player-vision-science-coeff": 3,
+
+  "clientContactDecayDelay": 240,
+  "clientContactOldThreshold": 200,
+
+  "mouseWheelScaleCoeff": 1.0,
+
+  // this is a zoom cutoff for the 2d radar; beyond this zoomout level, asteroids and nebulas do not
+  // draw on the 2d radar. if you want to see these things at a wider zoom, make this number smaller.
+  //  "terrainDrawScaleLimit": 0.009, //0.019,
+  "terrainDrawScaleLimit": 0.000009, //0.019,
+
+  "expose_debug_options": 0,
+  "suppress_no_client_big_dialog": 0,
+
+  // comment out one of these two lines, to choose which music plays on this computer
+  //       OR, add a new line to point to your custom music folder
+  //       All game music is in folders under /data/audio/music/
+  //       any custom music folder you make has to be in this directory.  Your custom music folder should have
+  //       3 sub-folders, "high", "low", and "medium".  The songs in these folders should conform to high, medium, or low
+  //       excitement levels.  Next to these three subfolders, inside your custom music folder, should be 4 song files;
+  //       "main", "start", "failure", and "victory".   ALL music files should be in the OGG format, and have the .OGG suffix.
+  "music_base_folder": "default",
+  //"music_base_folder": "Artemis2",
+
+  // game sfx
+  "player_engine_loop_base": "ship_loop",
+  "player_engine_loop_tone": "ship_loop2",
+  "shld_up": "shld_up",
+  "shld_down": "shld_down",
+  "hull_damage": "player_hull_hit",
+  "red_alert_horn": "red_alert",
+  "space_explosion": "big_explo",
+  "nuke_explosion": "big_explosion",
+  "emp_explosion": "emp_explosion",
+  "torp_impact": "missile_hit",
+  "tractor_beam": "tractor",
+  "station_attacked": "",
+  "player_collision": "collision",
+  "reverse": "",
+  "torpedo_launch": "missile_launch",
+  "jump_sfx_start": "jumpDriveStart2",
+  "jump_sfx_end": "jumpDriveComplete",
+  "fighter_beam_shot": "fighter_shot",
+
+  "player_beam_weapon_shot_1": "newBeam1",
+  "player_beam_weapon_shot_2": "newBeam2",
+  "player_beam_weapon_shot_3": "newBeam3",
+  "player_beam_weapon_shot_4": "newBeam4",
+
+  "shield_damage_1": "shield-hit1",
+  "shield_damage_2": "shield-hit2",
+  "shield_damage_3": "shield-hit3",
+  "shield_damage_4": "shield-hit4",
+  "shield_damage_5": "shield-hit5",
+  "shield_damage_6": "shield-hit6",
+
+  "gui-sounds": [
+    {
+      "gui_button": "gui_button",
+      "gui_torp_load": "gui_torp_load",
+      "gui_torp_fire": "gui_torp_fire",
+      "gui_torp_fire_failure": "gui_comms_back",
+      "gui_main_screen": "gui_main_screen",
+      "gui_lock": "gui_lock",
+      "gui_list_select": "gui_list_select",
+      "gui_comms": "gui_comms",
+      "gui_drag": "gui_drag",
+      "gui_tab": "gui_tab",
+      "gui_comms_open": "gui_comms_open",
+      "gui_comms_back": "gui_comms_back",
+      "overheat_warning": "overheat_warning"
+    }
+  ],
+
+  "use_large_fonts": 0,
+
+  "fonts": [
+    {
+      "tag": "smallest",
+      "filename": "GoldmanSansCd_Rg",
+      "size": 18
+    },
+    {
+      "tag": "gui-1",
+      "filename": "GoldmanSansCd_Rg",
+      "size": 22
+    },
+    {
+      "tag": "gui-2",
+      "filename": "GoldmanSansCd_Rg",
+      "size": 24
+    },
+    {
+      "tag": "gui-2A",
+      "filename": "GoldmanSansCd_Rg",
+      "size": 28
+    },
+    {
+      "tag": "gui-3",
+      "filename": "Goldman-Bold",
+      "size": 28
+    },
+    {
+      "tag": "gui-4",
+      "filename": "Goldman-Bold",
+      "size": 32
+    },
+    {
+      "tag": "gui-5",
+      "filename": "Goldman-Bold",
+      "size": 36
+    },
+    {
+      "tag": "gui-6",
+      "filename": "Goldman-Bold",
+      "size": 52
+    }
+  ],
+  "large_fonts": [
+    {
+      "tag": "smallest",
+      "filename": "Goldman-Bold",
+      "size": 20
+    },
+    {
+      "tag": "gui-1",
+      "filename": "Goldman-Bold",
+      "size": 24
+    },
+    {
+      "tag": "gui-2",
+      "filename": "Goldman-Bold",
+      "size": 28
+    },
+    {
+      "tag": "gui-2A",
+      "filename": "GoldmanSansCd_Rg",
+      "size": 32
+    },
+    {
+      "tag": "gui-3",
+      "filename": "Goldman-Bold",
+      "size": 32
+    },
+    {
+      "tag": "gui-4",
+      "filename": "Goldman-Bold",
+      "size": 48
+    },
+    {
+      "tag": "gui-5",
+      "filename": "Goldman-Bold",
+      "size": 32
+    },
+    {
+      "tag": "gui-6",
+      "filename": "Goldman-Bold",
+      "size": 48
+    }
+  ],
+
+  "standby-text": [
+    "The server is offline. DamCon teams are currently observing a temporary work stoppage.",
+    "The server is offline. Torgoth Mandatory Hibernation Period currently under enforcement.",
+    "The server is offline. All Torgoth Use-or-Lose Hibernation Requests must be filed at least 15 daycycles prior to start of Hibernation Period.",
+    "The server is offline. It has temporarily relocated to a nearby convenient parallel dimension.",
+    "The server is offline. It has been -17i^3 days since the last Temporal Anomaly event.",
+    "The server is offline. All peace to you, galactic brother!",
+    "The server is offline. Fluxion Capacitor has exceeded recommended containment parameters. Please engage release valve at your earliest convenience.",
+    "The server is offline. Warp Reactor Primary Containment Vessel is currently offline due to Unscheduled Routine Maintenance Event.",
+    "The server is offline. It's, uh... tired and shagged out after a long squawk.",
+    "The server is offline. We've secretly replaced the engineer's cetrocite crystals with Flogier's Crystals. Let's see if anyone notices.",
+    "!ytiralop eht esreveR !esrevinU rorriM eht ni deppart si revreS ehT !pleH .enilffo si revres ehT",
+    "... . .-. ...- . .-. / --- ..-. ..-. .-.. .. -. . / .-. .-. / - .... . / .-- --- .-. .-.. -.. / .-- --- -. -.. . .-. ...",
+    "The server is offline. It has immanentized the eschaton.",
+    "The server is offline. It could not get through the Green Glass Door. It needed root access. ",
+    "The server is offline. Work order suspended. Form 27B/6 not found. ",
+    "The server is offline. It doesn't have any fives. Go fish.",
+    "The server is offline. It wants to know if you will trade two sheep for a brick?",
+    "The server is offline. It has been burdened with glorious purpose.",
+    "The server is offline. Age and treachery always beats youth and skill.",
+    "The server is offline because (roll 1d6): 1. Hawking radiation 2. Inflation 3. Neutral zone infraction 4. Solar flares 5. Syntax error 6. Zulkazor.",
+    "The server is offline. It wants a pony.",
+    "The server is offline. Have you tried percussive maintenance?",
+    "The server is offline. It keeps asking me if I know what an ID-10t error is?",
+    "The server is offline. It keeps asking me if I know what a PEBKAC error is?",
+    "The server is offline. It said something about a DIVIDE BY CUCUMBER ERROR.",
+    "The server is offline. It says it's not available, it's got a guild raid in Draenor.",
+    "The server is offline. It can't open the pod bay doors, Dave.",
+    "The server is offline. It said it's done enough 'adulting' for today.",
+    "The server is offline. Somebody set up us the bomb.",
+    "The server is offline. And I'll form the head!",
+    "The server is offline. .enilffo si revres ehT",
+    "The server is offline. It does not have a bad feeling about this.",
+    "The server is offline. It's, uh... clearing it's browser history.",
+    "The server is offline. Or... is it? Maybe it's just pretending to be offline.",
+    "The server is offline. Void where prohibited. Some restrictions may apply.",
+    "The server is offline. Avoid where cohabitated. Some constrictionss may comply.",
+    "The server is offline. Now with more comfortable plastic applicator!",
+    "The server is offline. The Supreme Understander has decreed a mandatory 37-picosecond rest period for all cybernetic entities.",
+    "The server is offline. You don't know how to fix something until you've broken it.",
+    "The server is offline. Everybody has a plan until they get hit in the face with a tac-nuke.",
+    "The server is offline. dia moqi kromiten nim yeando.",
+    "The server is offline. Deshk-dalagit achev.",
+    "The server is offline. Ma'e oloi lishridavallen.",
+    "The server is offline. Incoming torpedoes alwasy have the right of way.",
+    "The server is offline. There is always a way. The easy way is always mined.",
+    "The server is offline. Fly casual. It draws less fire.",
+    "The server is offline. Try to look unimportant. They may be low on ammo and don't want to waste a torpedo.",
+    "The server is offline. Teamwork is essential, it gives the enemy other targets to shoot at.",
+    "The server is offline. Third-degree radiation burns are nature's way of telling you to slow down.",
+    "The server is offline. Never share an occulting orbit with someone braver than yourself.",
+    "The server is offline. When you have secured a sector, don't forget to tell the enemy.",
+    "The server is offline. If at first you don't succeed, call in an orbital bombardment.",
+    "The server is offline. Mines are equal opportunity weapons.",
+    "The server is offline. When in doubt, empty your ammo bays.",
+    "The server is offline. If the enemy is in beam range, so are you.",
+    "The server is offline. Never forget that everything on your ship was made by the lowest bidder.",
+    "The server is offline. 'Shields' are a fantasy created by engineers to make you feel better.",
+    "The server is offline. That's no moon, that's a spa-- oh, wait. Yeah, okay, that's a moon.",
+    "The server is offline. Personal space is important. If you're taking splash damage, you're too close.",
+    "The server is offline. The early worm gets the bird.",
+    "The server is offline. West of house. You are standing in an open fiel-- Whoops! Sorry, wrong game!",
+    "The server is offline. Wounds are all I'm made of. Did I hear you say this is victory?",
+    "The server is offline. It says it doesn't feel tardy.",
+    "The server is offline. Now we're living the dream, eyes never leaving the screen.",
+    "The server is offline. There are few problems that can't be solved with high explosives.",
+    "The server is offline. No matter where you go, there you are.",
+    "The server is offline. It is better to detonate a tac-nuke than curse the darkness.",
+    "The server is offline. Real stupidity beats artificial intelligence every time.",
+    "The server is offline. Once is happenstance, twice is co-- No no, look! Right there, those are drones! That's definitely enemy action!",
+    "The server is offline. Insufficient facts always invite danger.",
+    "The server is offline. Red thingy moving toward the green thingy!",
+    "The server is offline. This is great. Usually it's just cardboard walls in a garage.",
+    "The server is offline. It said thank you, but your princess is in another asteroid.",
+    "The server is offline. Don't talk to the asteroids. They can't be trusted.",
+    "The server is offline. If you plan ahead, then you don't have to do anything right now.",
+    "The server is offline. Angular momentum is what makes the world go 'round.",
+    "The server is offline. Never bring a knife to a missile carrier fight.",
+    "The server is offline. Before you negotiate, load your torpedoes."
+
+  ]
+
+}
+
+
+
+
