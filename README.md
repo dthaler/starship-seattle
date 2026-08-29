@@ -24,4 +24,4 @@ FYI, the last command above will do the following:
 
 * From the `data\missions` directory within the Cosmos install, do `sbs update` then `sbs production -b v1.4.0_dev`.  The latter will reset the missions folder.
 * Copy the `data\missions\LegendaryMissions` folder to a new `data\missions\LegendaryMissionsUnlocked` folder.
-* Install the Starship Seattle configuration files. (This has to be done last since some configuration files in this repository overwrites the stock ones.)
+* Install the Starship Seattle configuration files. (This has to be done last since some configuration files in this repository overwrite the stock ones.)
