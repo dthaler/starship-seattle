@@ -21,5 +21,5 @@ rem Create LegendaryMissionsUnlocked
 xcopy /s /y LegendaryMissions\ LegendaryMissionsUnlocked\
 
 rem Restore Starship Seattle configuration
-cd ..
-xcopy /s /y ..\%PROFILE%-data\* .
+cd ..\..
+xcopy /s /y %PROFILE%-data\ data\
