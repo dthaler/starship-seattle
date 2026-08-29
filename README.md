@@ -15,7 +15,7 @@ The correct order to install Cosmos files is:
 1. Download Cosmos-1.3.0-Installer.exe from itch.io and install it
 2. Download and install the [1.3.5-ish executable](https://drive.google.com/file/d/1GAlTMeZvlHjp9EZe0FIZL03RoQSqH3Cx/view?usp=drive_link)
 3. For a machine with DMX, install the latest [Cosmos Bridge Tools](https://www.armidalesoftware.com/Artemis/CosmosBridgeTools.htm#Download). (This should be done after step 1 since it updates the stock dmx.py.)
-4. Install the configuration files in the [Cosmos directory](https://github.com/dthaler/starship-seattle/tree/main/Cosmos) of this repository.  From your Cosmos install directory, do `xcopy /s C:\Users\dthal\git\dthaler\starship-seattle\Cosmos\ .` (replacing the path with whatever the path is to the starship-seattle Cosmos directory).
+4. Install the configuration files in the [Cosmos directory](https://github.com/dthaler/starship-seattle/tree/main/Cosmos) of this repository. From your Cosmos install directory, run `xcopy /E /I /Y "<path-to-starship-seattle>\Cosmos\*" .`
 5. From your Cosmos install directory, do `ssupdate` (or, if your ship is intrepid `ssupdate intrepid`).
 
 Only steps 1-2 are needed on clients.  All steps are needed on the server.
