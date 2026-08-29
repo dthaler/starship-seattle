@@ -40,7 +40,7 @@ OPERATOR_MODE:
 # Additional Lock down settings
 #
 # If true, prevent changing the ship name and type
-SHIP_PICK_READ_ONLY: true
+SHIP_PICK_READ_ONLY: false
 # Disallow changing a console in mid-mission
 CAN_CHANGE_CONSOLE: false
 
