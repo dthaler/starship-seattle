@@ -10,6 +10,10 @@ This is the keybind fixes from Quaris's [Unofficial Patch v1.12](https://artemis
 
 This is the joystick configuration for the Thrustmaster T-Flight Hotas X joystick.
 
+## joystickSettings_CH *.dat
+
+These are the joystick configuration files for Mark's yoke.
+
 ## client_string_set.txt
 
 This respository contains a locked client_string_set.txt file for each ship (Harbinger, Intrepid, or Artemis)
