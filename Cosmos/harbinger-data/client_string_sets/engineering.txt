@@ -1,0 +1,10 @@
+
+
+console_mode
+engineering;Harbinger
+console_previous
+engineering
+crew_name
+
+crew_self
+
