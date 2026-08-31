@@ -54,6 +54,9 @@ if "%CONSOLE%"=="" (
     echo Unlocked console
 ) else (
     echo Locking console to %CONSOLE%...
-    fsutil hardlink create "data\client_string_set.txt" "data\client_string_sets\%CONSOLE%.txt"
-    rem "fsutil hardlink list data\client_string_set.txt" will now show what it is linked to
+    fsutil hardlink create "data\client_string_set.txt" "data\client_string_sets\%CONSOLE%.txt" >nul
+    if errorlevel 1 (
+        echo ERROR: Failed to lock console to "%CONSOLE%".
+        exit /b 1
+    )
 )
