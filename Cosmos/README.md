@@ -10,6 +10,11 @@ This is the keybind fixes from Quaris's [Unofficial Patch v1.12](https://artemis
 
 This is the joystick configuration for the Thrustmaster T-Flight Hotas X joystick.
 
+## client_string_set.txt
+
+This respository contains a locked client_string_set.txt file for each ship (Harbinger, Intrepid, or Artemis)
+and console.  The sslock.bat file can be used to lock or unlock a client.
+
 ## preferences.json
 
 You can use the stock Cosmos 1.3.0 file which will advertise the default server name of "Cosmos Server" to clients.
