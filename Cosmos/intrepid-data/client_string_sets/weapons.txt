@@ -1,0 +1,10 @@
+
+
+console_mode
+weapons;Intrepid
+console_previous
+weapons
+crew_name
+
+crew_self
+

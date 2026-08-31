@@ -25,3 +25,28 @@ FYI, the last command above will do the following:
 * From the `data\missions` directory within the Cosmos install, do `sbs update` then `sbs production -b v1.4.0_dev`.  The latter will reset the missions folder.
 * Copy the `data\missions\LegendaryMissions` folder to a new `data\missions\LegendaryMissionsUnlocked` folder.
 * Install the Starship Seattle configuration files. (This has to be done last since some configuration files in this repository overwrite the stock ones.)
+
+In addition on clients, you can lock or unlock the client to a specific ship and console combination:
+
+```
+Usage: sslock.bat <shipname> [console]
+
+  shipname: a lower case ship name
+  console: optional; a lower case console name
+
+Valid ship names:
+  artemis
+  harbinger
+  intrepid
+
+Valid console names:
+  cinematic
+  comms
+  engineering
+  helm
+  mainscreen
+  science
+  weapons
+
+Example: sslock.bat artemis helm
+```

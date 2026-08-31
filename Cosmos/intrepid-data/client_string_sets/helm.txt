@@ -1,0 +1,10 @@
+
+
+console_mode
+helm;Intrepid
+console_previous
+helm
+crew_name
+
+crew_self
+

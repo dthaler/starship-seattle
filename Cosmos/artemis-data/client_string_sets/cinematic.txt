@@ -1,0 +1,10 @@
+
+
+console_mode
+cinematic;Artemis
+console_previous
+cinematic
+crew_name
+
+crew_self
+

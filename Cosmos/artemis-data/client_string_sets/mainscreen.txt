@@ -1,0 +1,10 @@
+
+
+console_mode
+mainscreen;Artemis
+console_previous
+mainscreen
+crew_name
+
+crew_self
+

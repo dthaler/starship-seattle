@@ -1,0 +1,10 @@
+
+
+console_mode
+helm;Artemis
+console_previous
+helm
+crew_name
+
+crew_self
+

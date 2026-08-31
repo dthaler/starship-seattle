@@ -1,0 +1,10 @@
+
+
+console_mode
+comms;Intrepid
+console_previous
+comms
+crew_name
+
+crew_self
+
